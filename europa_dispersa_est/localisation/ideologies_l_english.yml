@@ -1,0 +1,88 @@
+﻿l_english:
+
+ ###Ideologies###
+ militant_theocracy_drift: "Drift towards Militant Theocracy"
+ militant_theocracy:0 "Militant Theocrat"
+ militant_theocracy_noun:0 "Militant Theocracy"
+ militant_theocracy_desc:0 "Militant Theocracy"
+ 
+ monarchism_drift: "Drift towards Monarchism"
+ monarchism:0 "Monarchist"
+ monarchism_noun:0 "Monarchism"
+ monarchism_desc:0 "Monarchy"
+ 
+ heavenly_mandate_drift: "Drift towards Heavenly Mandate"
+ heavenly_mandate:0 "Heavenly Mandate"
+ heavenly_mandate_noun:0 "Heavenly Mandate"
+ heavenly_mandate_desc:0 "Mandate of Heaven"
+ 
+ popular_traditionalism_drift: "Drift towards Popular Traditionalism"
+ popular_traditionalism:0 "Popular Traditionalist"
+ popular_traditionalism_noun:0 "Popular Traditionalism"
+ popular_traditionalism_desc:0 "Popular Traditionalism"
+ 
+ autonomous_councilism_drift: "Drift towards Autonomous Councilism"
+ autonomous_councilism:0 "Autonomist Councilist"
+ autonomous_councilism_noun:0 "Autonomous Councilism"
+ autonomous_councilism_desc:0 "Autonomous Councils"
+ 
+ popular_councilism_drift: "Drift towards Popular Councilism"
+ popular_councilism:0 "Populist Councilist"
+ popular_councilism_noun:0 "Popular Councilism"
+ popular_councilism_desc:0 "Popular Councils"
+ 
+ absolute_councilism_drift: "Drift towards Absolute Councilism"
+ absolute_councilism:0 "Absolutist Councilist"
+ absolute_councilism_noun:0 "Absolute Councilism"
+ absolute_councilism_desc:0 "Absolutist Councils"
+  
+ collaborative_councilism_drift: "Drift towards Collaborative Councilism"
+ collaborative_councilism:0 "Collaborative Councilist"
+ collaborative_councilism_noun:0 "Collaborative Councilism"
+ collaborative_councilism_desc:0 "Collaborative Councils"
+ 
+ popular_collaborationism_drift: "Drift towards Popular Collaborationism"
+ popular_collaborationism:0 "Popular Collaborationist"
+ popular_collaborationism_noun:0 "Popular Collaborationism"
+ popular_collaborationism_desc:0 "Popular Collaborationism"
+ 
+ orthodox_collaborationism_drift: "Drift towards Orthodox Collaborationism"
+ orthodox_collaborationism:0 "Orthodox Collaborationist"
+ orthodox_collaborationism_noun:0 "Orthodox Collaborationism"
+ orthodox_collaborationism_desc:0 "Orthodox Collaborationism"   
+ 
+ vanguardist_collaborationism_drift: "Drift towards Vanguardist Collaborationism"
+ vanguardist_collaborationism:0 "Vanguardist Collaborationist"
+ vanguardist_collaborationism_noun:0 "Vanguardist Collaborationism"
+ vanguardist_collaborationism_desc:0 "Vanguardist Collaborationism"
+ 
+ ###Sub Ideologies###
+ militant_theocracy_generic:0 "Militant Theocracy"
+ militant_theocracy_generic_desc:0 "Militant Theocrats believe in service to God by military conquest and defense of the realm. They are generally ruled by an oligarchy or by a single person, and their economy is geared towards defense."
+ 
+ heavenly_mandate_generic:0 "Heavenly Mandate"
+ heavenly_mandate_generic_desc:0 "Nations which follow a Heavenly Mandate believe that their ruler derives their right to rule from either a God or from whichever form of "good" they believe in. These societies are generally hierarchal and rulers are selected by Primogeniture."
+ 
+ autonomous_councilism_generic:0 "Autonomous Councilism"
+ autonomous_councilism_generic_desc:0 "This Nation isn't a "state" in any sense. It is ruled by autonomous, local councils, who make decisions for the local community. These councils do, for the purposes of foreign relations, elect diplomats and a "Chairman of the Councils", who serves the role of head of state for the purposes of coordinating these local councils."
+ 
+ popular_councilism_generic:0 "Popular Councilism"
+ popular_councilism_generic_desc:0 "This society is ruled by representatives, elected by popular vote in each of the constituencies they represent. The people also elect a head of state, but their job is representing the nation for the purpose of foreign affairs and conducting meetings for representatives."
+
+ absolute_councilism_generic:0 "Absolute Councilism"
+ absolute_councilism_generic_desc:0 "This society is ruled by a group of permanently elected or selected councilmen, who hold absolute power over the affairs of the nation. There is no head of state."
+ 
+ orthodox_collaborationism_generic:0 "Orthodox Collaborationism"
+ orthodox_collaborationism_generic_desc:0 "This society is ruled by a party which represents the interests of the working class. It is established via revolution, and seeks to abolish the private ownership of property."
+ 
+ vanguardist_collaborationism_generic:0 "Vanguardist Collaborationism"
+ vanguardist_collaborationism_generic_desc:0 "This society is ruled by a single party, unelected, who claim themselves to be the sole representatives of the working class. The party holds absolute control over the nation, for purposes of safeguarding the Revolution."
+ 
+ popular_collaborationism_generic:0 "Popular Collaborationism"
+ popular_collaborationism_generic_desc:0 "This society is a multi-party state of Collaborationist parties. Representatives are elected to represent the people, and the interests of their constituencies. Self autonomy and individual rights are protected, but may be curtailed in case of national emergency."
+ 
+ monarchism_generic:0 "Monarchism"
+ monarchism_generic_desc:0 "This Nation is ruled by a monarch. The monarch either holds absolute or limited control over the affairs of the nation. Successors are selected by Primogeniture."
+ 
+ popular_traditionalism_generic:0 "Popular Traditionalism"
+ popular_traditionalism_generic_desc:0 "This nation is very restrictive in social politics, and is ruled by elected representatives. It has a free market economic system, but curtails many social freedoms."
