@@ -1,0 +1,77 @@
+#north american tags
+
+APA = "countries/Apache.txt"
+CHE = "countries/Cherokee.txt"
+CHR = "countries/Christiania.txt"
+HAU = "countries/Haudenosaunee.txt"
+MIS = "countries/Mississippi.txt"
+NAV = "countries/Navajo.txt"
+SEM = "countries/Seminole.txt"
+SHA = "countries/Shawnee.txt"
+SHO = "countries/Shoshone.txt"
+SIO = "countries/Sioux.txt"
+UCJ = "countries/Ute-Cheyenne-Judean.txt"
+
+
+#pacific & oceania tags
+
+AOT = "countries/Aotearoa.txt"
+HWI = "countries/Hawaii.txt"
+
+
+#europe, anatolia, caucasus tags
+
+ALM = "countries/Almannia.txt"
+ARC = "countries/Archipelago.txt"
+BRE = "countries/Brest.txt"
+BUR = "countries/Burgundy.txt"
+CEL = "countries/Celtica.txt"
+DON = "countries/Don Kuban.txt"
+FIN = "countries/Finland.txt"
+FRA = "countries/Fransia.txt"
+FRI = "countries/Frisia.txt"
+GEO = "countries/Georgia.txt"
+HEL = "countries/Helvetica.txt"
+KUR = "countries/Kurdistan.txt"
+MED = "countries/Mediterranean.txt"
+OTO = "countries/Ottoman.txt"
+ROM = "countries/Rome.txt"
+RUS = "countries/Rus.txt"
+SAP = "countries/Sapmi.txt"
+SKA = "countries/Skaney.txt"
+SKO = "countries/Skotland.txt"
+
+
+#MENA tags
+
+AKA = "countries/Arabia.txt"
+ALJ = "countries/Al Jazair.txt"
+BAG = "countries/Baghdad.txt"
+CAI = "countries/Cairo.txt"
+CAR = "countries/Carthage.txt"
+LIB = "countries/Libya.txt"
+MAS = "countries/Mashriqi.txt"
+MOR = "countries/Morocco.txt"
+NUB = "countries/Nubia.txt"
+OMA = "countries/Oman.txt"
+ORM = "countries/Ormus.txt"
+PER = "countries/Persia.txt"
+SAY = "countries/Sayyid.txt"
+
+
+#african tags
+
+ETH = "countries/Ethiopia.txt"
+SWA = "countries/Swahili.txt"
+ZUL = "countries/Zulu.txt"
+SOT = "countries/Sotho.txt"
+
+
+#central, east, south, southeast asia tags
+
+BEN = "countries/Bengal.txt"
+JPN = "countries/Japan.txt"
+JOS = "countries/Joseon.txt"
+KAS = "countries/Kashmir.txt"
+KAZ = "countries/Kazakhstan.txt"
+TAM = "countries/Tamil.txt"
