@@ -1,10 +1,10 @@
 ideologies = {
 	
-	orthodox_collaborationism = {
+	vanguardist_collaborationism = {
 	
 		types = {
 			
-			orthodox_collaborationism_generic = {
+			vanguardist_collaborationism_generic = {
 			}
 		}
 		
