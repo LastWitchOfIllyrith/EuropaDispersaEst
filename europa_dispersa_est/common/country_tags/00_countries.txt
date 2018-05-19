@@ -64,6 +64,7 @@ SAY = "countries/Sayyid.txt"
 ETH = "countries/Ethiopia.txt"
 SWA = "countries/Swahili.txt"
 ZUL = "countries/Zulu.txt"
+SOT = "countries/Sotho.txt"
 
 
 #central, east, south, southeast asia tags
