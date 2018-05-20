@@ -11,3 +11,23 @@ ZUL = {
 	color = rgb { 255  106  0 }
 	color_ui = rgb { 255  106  0 }
 }
+
+SOT = {
+	color = rgb { 46  213  203 }
+	color_ui = rgb { 46  213  203 }
+}
+
+HER = {
+	color = rgb { 85  184  69 }
+	color_ui = rgb { 85  184  69 }
+}
+
+ROZ = {
+	color = rgb { 46  144  213 }
+	color_ui = rgb { 46  144  213 }
+}
+
+LUN = {
+	color = rgb { 237  237  237 }
+	color_ui = rgb { 237  237  237 }
+}

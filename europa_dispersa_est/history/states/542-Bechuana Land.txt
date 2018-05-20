@@ -1,0 +1,25 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		chromium=90.000
+	}
+
+	history={
+		owner = HER
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = HER
+
+	}
+
+	provinces={
+		1509 5189 5203 7605 7770 12940 
+	}
+	manpower=234000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
