@@ -1,6 +1,6 @@
-﻿capital = 763
+﻿capital = 764
 
-oob = "LUN_1936"
+oob = "OVI_1936"
 
 # Starting tech
 set_technology = {
@@ -8,7 +8,7 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
-set_convoys = 0
+set_convoys = 20
 
 set_politics = {
 

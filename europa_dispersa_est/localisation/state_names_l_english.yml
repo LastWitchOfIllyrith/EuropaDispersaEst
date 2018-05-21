@@ -4,7 +4,11 @@
  STATE_275:0 "Limpopo"
  STATE_542:0 "Kalahari"
  STATE_541:0 "Namib"
+ STATE_544:0 "Maravi"
  STATE_545:0 "Rozwi"
  STATE_681:0 "//Hui !Gaeb"
  STATE_719:0 "Zulu"
  STATE_763:0 "Lunda"
+ STATE_764:0 "Ovimbundu Plateau" #Might be the Bie Plateau, but I have to confirm the name doesn't have colonialist origins first.  
+ STATE_765:0 "Tanganyika"
+ STATE_766:0 "Zinza"

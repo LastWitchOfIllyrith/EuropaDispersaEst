@@ -31,3 +31,13 @@ LUN = {
 	color = rgb { 237  237  237 }
 	color_ui = rgb { 237  237  237 }
 }
+
+OVI = {
+	color = rgb { 185  49  49 }
+	color_ui = rgb { 185  49  49 }
+}
+
+MAR = {
+	color = rgb { 161  64  35 }
+	color_ui = rgb { 161  64  35 }
+}

@@ -4,29 +4,21 @@ state={
 	name="STATE_544"
 
 	history={
-		owner = POR
+		owner = MAR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			8245 = {
-				naval_base = 1
-
-			}
-			2123 = {
-				naval_base = 1
-
-			}
 
 		}
 		victory_points = {
 			8245 1 
 		}
-		add_core_of = MZB
+		add_core_of = MAR
 
 	}
 
 	provinces={
-		1846 2123 2159 2180 2202 2217 2255 5164 10594 10930 10972 12908 12971 12986 13173 
+		191 1817 1846 2159 2180 2217 2255 4515 10594 10930 10972 12908 12986 13173 
 	}
 	manpower=4125000
 	buildings_max_level_factor=1.000

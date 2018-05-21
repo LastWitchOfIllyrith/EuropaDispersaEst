@@ -1,0 +1,21 @@
+
+state={
+	id=765
+	name="STATE_765"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ENG
+
+	}
+	
+	provinces={
+		2176 2220 5180 8144 8201 8205 10845 10988 12911 12967 
+	}
+	manpower=6261332
+	buildings_max_level_factor=1.000
+}

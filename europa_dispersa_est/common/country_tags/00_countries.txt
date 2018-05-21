@@ -68,8 +68,8 @@ SOT = "countries/Sotho.txt"
 HER = "countries/Herero.txt"
 ROZ = "countries/Rozwi.txt"
 LUN = "countries/Lunda.txt"
-#MAR = "countries/Maravi.txt"
-#OVI = "countries/Ovimbundu.txt"
+OVI = "countries/Ovimbundu.txt"
+MAR = "countries/Maravi.txt"
 
 
 #central, east, south, southeast asia tags
