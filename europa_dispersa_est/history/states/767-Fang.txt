@@ -1,21 +1,21 @@
 
 state={
-	id=765
-	name="STATE_765"
+	id=767
+	name="STATE_767"
 	
 	history={
-		owner = NCH
+		owner = FAN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = NCH
+		add_core_of = FAN
 
 	}
 	
 	provinces={
-		2176 2220 5180 8144 8201 8205 10845 10988 12911 12967 
+		2080 5036 5054 11012 12830 
 	}
-	manpower=6261332
+	manpower=822215
 	buildings_max_level_factor=1.000
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POR
+		owner = MAT
 		buildings = {
 			infrastructure = 2
 			8248 = {
@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			10966 1 
 		}
-		add_core_of = ANG
+		add_core_of = MAT
 
 	}
 
