@@ -56,3 +56,13 @@ NCH = {
 	color = rgb { 72  207  219 }
 	color_ui = rgb { 72  207  219 }
 }
+
+LUB = {
+	color = rgb { 118  210  116 }
+	color_ui = rgb { 118  210  116 }
+}
+
+KON = {
+	color = rgb { 232  138  36 }
+	color_ui = rgb { 232  138  36 }
+}

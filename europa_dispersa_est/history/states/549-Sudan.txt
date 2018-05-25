@@ -1,10 +1,7 @@
 
 state={
-	id=548
-	name="STATE_548"
-	resources={
-		rubber=3.000
-	}
+	id=549
+	name="STATE_549"
 
 	history={
 		owner = ENG
@@ -12,14 +9,13 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = KEN
 
 	}
 
 	provinces={
-		3854 7088 12989 13177 
+		1914 1953 1960 2016 2096 4033 4918 5060 7133 7996 8052 8084 10739 10795 10827 10851 10859 10877 10908 12744 12800 12887 
 	}
-	manpower=3515625
+	manpower=3694293
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
