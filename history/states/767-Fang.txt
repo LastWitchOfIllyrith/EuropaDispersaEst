@@ -1,0 +1,21 @@
+
+state={
+	id=767
+	name="STATE_767"
+	
+	history={
+		owner = FAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = FAN
+
+	}
+	
+	provinces={
+		2080 5036 5054 11012 12830 
+	}
+	manpower=822215
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = MAT
+		buildings = {
+			infrastructure = 2
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 1 
+		}
+		victory_points = {
+			10966 1 
+		}
+		add_core_of = MAT
+
+	}
+
+	provinces={
+		7548 12981 
+	}
+	manpower=3225000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

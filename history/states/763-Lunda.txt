@@ -1,0 +1,21 @@
+
+state={
+	id=763
+	name="STATE_763"
+	
+	history={
+		owner = LUN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LUN
+
+	}
+	
+	provinces={
+		697 1968 5199 5221 7872 8054 10538 12504 12677 12950 
+	}
+	manpower=1220731
+	buildings_max_level_factor=1.000
+}

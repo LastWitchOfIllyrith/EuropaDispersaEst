@@ -1,0 +1,29 @@
+
+state={
+	id=545
+	name="STATE_545"
+	resources={
+		chromium=35.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = ROZ
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10929 1 
+		}
+		add_core_of = ROZ
+
+	}
+
+	provinces={
+		1688 1874 2120 2151 2193 2216 4851 5155 5177 5212 7842 8245 10929 12935 
+	}
+	manpower=4155400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
