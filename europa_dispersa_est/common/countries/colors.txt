@@ -101,3 +101,63 @@ AZA = {
 	color = rgb { 223  204  38 }
 	color_ui = rgb { 223  204  38 }
 }
+
+FUL = {
+	color = rgb { 158  98  225 }
+	color_ui = rgb { 158  98  225 }
+}
+
+WAD = {
+	color = rgb { 130  90  77 }
+	color_ui = rgb { 130  90  77 }
+}
+
+SOK = {
+	color = rgb { 58  211  55 }
+	color_ui = rgb { 58  211  55 }
+}
+
+ARO = {
+	color = rgb { 100  215  235 }
+	color_ui = rgb { 100  215  235 }
+}
+
+DAH = {
+	color = rgb { 227  28  28 }
+	color_ui = rgb { 227  28  28 }
+}
+
+ASH = {
+	color = rgb { 237  206  206 }
+	color_ui = rgb { 237  206  206 }
+}
+
+MOS = {
+	color = rgb { 42  174  73 }
+	color_ui = rgb { 42  174  73 }
+}
+
+WAT = {
+	color = rgb { 141  83  238 }
+	color_ui = rgb { 141  83  238 }
+}
+
+FJL = {
+	color = rgb { 119  237  191 }
+	color_ui = rgb { 119  237  191 }
+}
+
+BAM = {
+	color = rgb { 221  114  114 }
+	color_ui = rgb { 221  114  114 }
+}
+
+WOL = {
+	color = rgb { 193  41  41 }
+	color_ui = rgb { 193  41  41 }
+}
+
+TRZ = {
+	color = rgb { 222  183  131 }
+	color_ui = rgb { 222  183  131 }
+}
