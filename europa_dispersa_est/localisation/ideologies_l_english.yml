@@ -41,20 +41,20 @@
  collaborative_councilism_noun:0 "Collaborative Councilism"
  collaborative_councilism_desc:0 "Collaborative Councils"
  
- popular_collaborationism_drift: "Drift towards Popular Collaborationism"
- popular_collaborationism:0 "Popular Collaborationist"
- popular_collaborationism_noun:0 "Popular Collaborationism"
- popular_collaborationism_desc:0 "Popular Collaborationism"
+ popular_mazdakism_drift: "Drift towards Popular Mazdakism"
+ popular_mazdakism:0 "Popular Mazdakist"
+ popular_mazdakism_noun:0 "Popular Mazdakism"
+ popular_mazdakism_desc:0 "Popular Mazdakism"
  
- orthodox_collaborationism_drift: "Drift towards Orthodox Collaborationism"
- orthodox_collaborationism:0 "Orthodox Collaborationist"
- orthodox_collaborationism_noun:0 "Orthodox Collaborationism"
- orthodox_collaborationism_desc:0 "Orthodox Collaborationism"   
+ orthodox_mazdakism_drift: "Drift towards Orthodox Mazdakism"
+ orthodox_mazdakism:0 "Orthodox Mazdakist"
+ orthodox_mazdakism_noun:0 "Orthodox Mazdakism"
+ orthodox_mazdakism_desc:0 "Orthodox Mazdakism"   
  
- vanguardist_collaborationism_drift: "Drift towards Vanguardist Collaborationism"
- vanguardist_collaborationism:0 "Vanguardist Collaborationist"
- vanguardist_collaborationism_noun:0 "Vanguardist Collaborationism"
- vanguardist_collaborationism_desc:0 "Vanguardist Collaborationism"
+ vanguardist_mazdakism_drift: "Drift towards Vanguardist Mazdakism"
+ vanguardist_mazdakism:0 "Vanguardist Mazdakist"
+ vanguardist_mazdakism_noun:0 "Vanguardist Mazdakism"
+ vanguardist_mazdakism_desc:0 "Vanguardist Mazdakism"
  
  ###Sub Ideologies###
  militant_theocracy_generic:0 "Militant Theocracy"
@@ -72,14 +72,14 @@
  absolute_councilism_generic:0 "Absolute Councilism"
  absolute_councilism_generic_desc:0 "This society is ruled by a group of permanently elected or selected councilmen, who hold absolute power over the affairs of the nation. There is no head of state."
  
- orthodox_collaborationism_generic:0 "Orthodox Collaborationism"
- orthodox_collaborationism_generic_desc:0 "This society is ruled by a party which represents the interests of the working class. It is established via revolution, and seeks to abolish the private ownership of property."
+ orthodox_mazdakism_generic:0 "Orthodox Mazdakism"
+ orthodox_mazdakism_generic_desc:0 "This society is ruled by a party which represents the interests of the working class. It is established via revolution, and seeks to abolish the private ownership of property."
  
- vanguardist_collaborationism_generic:0 "Vanguardist Collaborationism"
- vanguardist_collaborationism_generic_desc:0 "This society is ruled by a single party, unelected, who claim themselves to be the sole representatives of the working class. The party holds absolute control over the nation, for purposes of safeguarding the Revolution."
+ vanguardist_mazdakism_generic:0 "Vanguardist Mazdakism"
+ vanguardist_mazdakism_generic_desc:0 "This society is ruled by a single party, unelected, who claim themselves to be the sole representatives of the working class. The party holds absolute control over the nation, for purposes of safeguarding the Revolution."
  
- popular_collaborationism_generic:0 "Popular Collaborationism"
- popular_collaborationism_generic_desc:0 "This society is a multi-party state of Collaborationist parties. Representatives are elected to represent the people, and the interests of their constituencies. Self autonomy and individual rights are protected, but may be curtailed in case of national emergency."
+ popular_mazdakism_generic:0 "Popular Mazdakism"
+ popular_mazdakism_generic_desc:0 "This society is a multi-party state of Mazdakist parties. Representatives are elected to represent the people, and the interests of their constituencies. Self autonomy and individual rights are protected, but may be curtailed in case of national emergency."
  
  monarchism_generic:0 "Monarchism"
  monarchism_generic_desc:0 "This Nation is ruled by a monarch. The monarch either holds absolute or limited control over the affairs of the nation. Successors are selected by Primogeniture."
