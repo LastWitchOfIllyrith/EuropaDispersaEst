@@ -4,7 +4,8 @@ state={
 	name="STATE_705"
 
 	history={
-		owner = POR
+		owner = DAH
+		add_core_of = DAH
 		buildings = {
 			infrastructure = 2
 			13015 = {
@@ -17,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1951 2001 10919 12762 12843 12874 13015 
+		1951 2001 10919 12843 12874 13015 
 	}
 	manpower=24725
 	buildings_max_level_factor=1.000

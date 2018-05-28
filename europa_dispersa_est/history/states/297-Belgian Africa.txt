@@ -4,14 +4,11 @@ state={
 	name="STATE_297"
 
 	history={
-		owner = SPR
+		owner = DOU
+		add_core_of = DOU
 		buildings = {
 			infrastructure = 2
-			1903 = {
-				naval_base = 1
-
-			}
-			8244 = {
+			6039 = {
 				naval_base = 1
 
 			}
@@ -21,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1903 6039 9137 
+		1903 6039 9137 10831 
 	}
 	manpower=185000
 	buildings_max_level_factor=1.000

@@ -4,7 +4,8 @@ state={
 	name="STATE_549"
 
 	history={
-		owner = ENG
+		owner = LUO
+		add_core_of = LUO
 		buildings = {
 			infrastructure = 3
 
@@ -13,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1914 1953 1960 2016 2096 4033 4918 5060 7133 7996 8052 8084 10739 10795 10827 10851 10859 10877 10908 12744 12800 12887 
+		1953 2096 4033 7133 7996 10827 10851 10877 10908 12744 
 	}
 	manpower=3694293
 	buildings_max_level_factor=1.000

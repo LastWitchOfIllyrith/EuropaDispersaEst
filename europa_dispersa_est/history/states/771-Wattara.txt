@@ -1,0 +1,22 @@
+
+state={
+	id=771
+	name="STATE_771"
+	
+	history={
+		owner = WAT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = WAT
+
+	}
+	
+	provinces={
+		5045 5070 7983 8006 8065 8122 10762 10803 12794 
+	}
+	manpower=6632339
+	buildings_max_level_factor=1.000
+}

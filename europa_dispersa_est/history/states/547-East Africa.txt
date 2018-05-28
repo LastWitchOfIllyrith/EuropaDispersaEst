@@ -4,7 +4,7 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = ENG
+		owner = KYK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,12 +17,12 @@ state={
 		victory_points = {
 			5210 1 
 		}
-		add_core_of = KEN
+		add_core_of = KYK
 
 	}
 
 	provinces={
-		1939 2066 2206 2308 5079 5160 5196 5210 5224 6020 8133 8223 10761 10860 10962 10976 11017 11145 12927 12929 13135 
+		1939 2066 2206 2308 5079 5160 5196 5210 5224 6020 8062 8133 8223 10761 10860 10962 10976 11014 11017 11145 12927 12929 12941 13135 
 	}
 	manpower=3392000
 	buildings_max_level_factor=1.000

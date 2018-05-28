@@ -1,0 +1,22 @@
+
+state={
+	id=515
+	name="STATE_515"
+
+	history={
+		owner = WAD
+		add_core_of = WAD
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1956 4902 5136 8103 10893 
+	}
+	manpower=1482744
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

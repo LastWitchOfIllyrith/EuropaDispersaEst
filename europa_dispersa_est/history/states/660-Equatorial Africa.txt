@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = WAD
+		add_core_of = WAD
 		buildings = {
 			infrastructure = 2
 
@@ -16,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1473 1883 1993 2081 3123 3181 4897 4978 7919 7963 9152 11194 
+		1473 1960 2081 3123 4897 4978 5060 8052 9152 10739 11194 13138 
 	}
 	manpower=2572456
 	buildings_max_level_factor=1.000

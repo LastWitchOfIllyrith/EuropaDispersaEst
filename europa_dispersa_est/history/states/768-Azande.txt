@@ -1,0 +1,22 @@
+
+state={
+	id=768
+	name="STATE_768"
+	
+	history={
+		owner = AZA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AZA
+
+	}
+	
+	provinces={
+		1883 1974 3165 3181 5084 7919 10764 10857 11108 12719 
+	}
+	manpower=1212517
+	buildings_max_level_factor=1.000
+}

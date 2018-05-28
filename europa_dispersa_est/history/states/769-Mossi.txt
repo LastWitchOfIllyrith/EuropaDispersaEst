@@ -1,0 +1,22 @@
+
+state={
+	id=769
+	name="STATE_769"
+	
+	history={
+		owner = MOS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MOS
+
+	}
+	
+	provinces={
+		2044 4927 7930 7950 7954 8071 8116 10788 10836 12838 12851 
+	}
+	manpower=14844500 
+	buildings_max_level_factor=1.000
+}
