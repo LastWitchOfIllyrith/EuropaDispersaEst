@@ -82,7 +82,7 @@ KYK = {
 	color_ui = rgb { 44  179  139 }
 }
 
-MON = {
+MOG = {
 	color = rgb { 166  207  222 }
 	color_ui = rgb { 166  207  222 }
 }
@@ -105,6 +105,16 @@ AZA = {
 FUL = {
 	color = rgb { 158  98  225 }
 	color_ui = rgb { 158  98  225 }
+}
+
+FAN = {
+	color = rgb { 35  58  202 }
+	color_ui = rgb { 35  58  202 }
+}
+
+DOU = {
+	color = rgb { 110  110  110 }
+	color_ui = rgb { 110  110  110 }
 }
 
 WAD = {
