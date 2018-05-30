@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = HAU
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 5
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = HAU
 		victory_points = {
 			6845 20 
 		}
@@ -38,7 +38,7 @@ state={
 	}
 
 	provinces={
-		822 847 880 891 894 3802 3824 3847 3850 3880 3897 6845 6869 6872 6885 6899 9789 9804 9820 11758 11769 11785 11789 11799 12405 
+		801 822 847 880 891 894 3802 3824 3847 3850 3880 3897 6823 6845 6850 6869 6872 6885 6899 6929 6984 9758 9789 9804 9820 9923 11758 11769 11785 11789 11799 12405 
 	}
 	manpower=9631346
 	buildings_max_level_factor=1.000

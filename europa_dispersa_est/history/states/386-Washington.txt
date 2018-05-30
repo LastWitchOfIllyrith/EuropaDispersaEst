@@ -4,7 +4,8 @@ state={
 	name="STATE_386"
 
 	history={
-		owner = USA
+		owner = CHR
+		add_core_of = CHR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -17,7 +18,6 @@ state={
 			}
 
 		}
-		add_core_of = USA
 		victory_points = {
 			1690 1 
 		}
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		7255 7442 10155 10271 10687 10690 12155 12214 
+		7255 7442 10155 10271 10690 12155 12214 
 	}
 	manpower=1563395
 	buildings_max_level_factor=1.000

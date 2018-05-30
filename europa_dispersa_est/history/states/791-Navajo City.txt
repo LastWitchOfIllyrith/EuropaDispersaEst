@@ -1,6 +1,15 @@
 state={
 	id=791
 	name="STATE_791"
+	
+	history={
+		owner = NAV
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
 	provinces={
 		850 1740 7879 12699 
 	}

@@ -1,6 +1,15 @@
 state={
 	id=788
 	name="STATE_788"
+	
+	history={
+		owner = CME
+		add_core_of = CME
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
 	provinces={
 		823 1562 7517 9814 9855 10387 10483 11757 11795 11859 12303 
 	}

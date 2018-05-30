@@ -4,18 +4,14 @@ state={
 	name="STATE_385"
 
 	history={
-		owner = USA
+		owner = CME
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 6
-			12211 = {
-				naval_base = 3
-
-			}
 
 		}
-		add_core_of = USA
+		add_core_of = CME
 		victory_points = {
 			3513 1 
 		}
@@ -23,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1414 3513 4274 4328 4826 7398 7865 12183 12553 
+		1414 3513 4274 4328 4826 7398 7865 10687 12183 12553 
 	}
 	manpower=953785
 	buildings_max_level_factor=1.000

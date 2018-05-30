@@ -4,7 +4,7 @@ state={
 	name="STATE_361"
 
 	history={
-		owner = USA
+		owner = SHA
 		victory_points = {
 			3957 40 
 		}
@@ -26,12 +26,12 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = SHA
 
 	}
 
 	provinces={
-		3917 3957 6823 6892 6929 6984 9758 9786 11892 
+		3917 3957 6892 9786 11892 
 	}
 	manpower=2118394
 	buildings_max_level_factor=1.000

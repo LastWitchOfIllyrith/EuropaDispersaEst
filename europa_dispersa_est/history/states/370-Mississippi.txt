@@ -4,7 +4,7 @@ state={
 	name="STATE_370"
 
 	history={
-		owner = USA
+		owner = MIS
 		victory_points = {
 			4464 1 
 		}
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = MIS
 
 	}
 

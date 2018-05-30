@@ -4,7 +4,7 @@ state={
 	name="STATE_366"
 
 	history={
-		owner = USA
+		owner = SEM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -27,7 +27,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = SEM
 		victory_points = {
 			1843 5 
 		}

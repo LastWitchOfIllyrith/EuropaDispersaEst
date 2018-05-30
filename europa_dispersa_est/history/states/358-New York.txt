@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = HAU
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -20,7 +20,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = HAU
 		victory_points = {
 			3878 30.0 
 		}
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		598 706 1436 3602 3702 3894 6717 6916 9673 9693 9708 9721 9754 9774 10381 11660 11662 11665 11722 13157 
+		598 706 1436 3602 3894 6717 6916 9673 9693 9708 9721 9754 9774 10381 11660 11662 11665 11722 13157 
 	}
 	manpower=12588061
 	buildings_max_level_factor=1.000

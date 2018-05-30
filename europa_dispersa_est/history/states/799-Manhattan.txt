@@ -1,6 +1,15 @@
 state={
 	id=799
 	name="STATE_799"
+	
+	history={
+		owner = HAU
+		add_core_of = HAU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
 	provinces={
 		859 3878 6911 9847 
 	}

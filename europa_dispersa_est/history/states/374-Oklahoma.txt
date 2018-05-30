@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = UCJ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			air_base = 2
 
 		}
-		add_core_of = USA
+		add_core_of = UCJ
 		victory_points = {
 			1806 1 
 		}
@@ -30,7 +30,7 @@ state={
 	}
 
 	provinces={
-		1618 4740 4919 5103 7904 8025 9822 10340 10702 10798 11743 11802 
+		1618 4740 5103 7762 7904 10340 10798 11802 
 	}
 	manpower=2396039
 	buildings_max_level_factor=1.000

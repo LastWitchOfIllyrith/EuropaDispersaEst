@@ -8,18 +8,18 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = NAV
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 
 		}
-		add_core_of = USA
+		add_core_of = NAV
 
 	}
 
 	provinces={
-		1972 3883 4796 4975 6897 8070 10867 10914 12684 
+		1972 4796 6897 10914 
 	}
 	manpower=423316
 	buildings_max_level_factor=1.000

@@ -1,8 +1,18 @@
+
 state={
 	id=792
 	name="STATE_792"
+	
+	history={
+		owner = APA
+		add_core_of = APA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
 	provinces={
-		1954 1998 3867 4955 5038 9773 10740 10894 12720 12791 
+		1954 1998 3867 3883 4955 4975 5038 8070 9773 10740 10867 10894 12684 12720 12791 12893 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

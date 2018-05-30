@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = APA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 9
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = APA
 		victory_points = {
 			10337 10 
 		}
@@ -37,7 +37,7 @@ state={
 	}
 
 	provinces={
-		1927 2019 2042 3875 3972 4884 5061 6785 6798 6987 8064 12369 12728 12782 12848 12893 
+		1927 2019 2042 4884 5061 6785 6798 6987 8064 12369 12728 12782 
 	}
 	manpower=5824712
 	buildings_max_level_factor=1.000
