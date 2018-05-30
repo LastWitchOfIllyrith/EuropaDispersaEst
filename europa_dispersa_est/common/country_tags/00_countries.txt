@@ -3,6 +3,7 @@
 APA = "countries/Apache.txt"
 CHE = "countries/Cherokee.txt"
 CHR = "countries/Christiania.txt"
+CME = "countries/Christiania Meridiana.txt"
 HAU = "countries/Haudenosaunee.txt"
 MIS = "countries/Mississippi.txt"
 NAV = "countries/Navajo.txt"
@@ -11,6 +12,8 @@ SHA = "countries/Shawnee.txt"
 SHO = "countries/Shoshone.txt"
 SIO = "countries/Sioux.txt"
 UCJ = "countries/Ute-Cheyenne-Judean.txt"
+HUR = "countries/Huron.txt"
+VNL = "countries/Vinland.txt"
 
 
 #pacific & oceania tags

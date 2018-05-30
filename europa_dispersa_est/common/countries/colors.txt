@@ -171,3 +171,70 @@ TRZ = {
 	color = rgb { 222  183  131 }
 	color_ui = rgb { 222  183  131 }
 }
+
+#North America
+
+CHR = {
+	color = rgb { 255  216  0 }
+	color_ui = rgb { 255  216  0 }
+}
+
+CME = {
+	color = rgb { 178  133  0 }
+	color_ui = rgb { 178  133  0 }
+}
+
+SHO = {
+	color = rgb { 155  30  180 }
+	color_ui = rgb { 155  30  180 }
+}
+
+UCJ = {
+	color = rgb { 250  255  127 }
+	color_ui = rgb { 250  255  127 }
+}
+
+NAV = {
+	color = rgb { 249  213  162 }
+	color_ui = rgb { 249  213  162 }
+}
+
+APA = {
+	color = rgb { 255  107  119 }
+	color_ui = rgb { 255  107  119 }
+}
+
+MIS = {
+	color = rgb { 119  255  112 }
+	color_ui = rgb { 119  255  112 }
+}
+
+HAU = {
+	color = rgb { 89  62  182 }
+	color_ui = rgb { 89  62  182 }
+}
+
+SHA = {
+	color = rgb { 25  0  255 }
+	color_ui = rgb { 25  0  255 }
+}
+
+CHE = {
+	color = rgb { 255  61  58 }
+	color_ui = rgb { 255  61  58 }
+}
+
+SEM = {
+	color = rgb { 255  10  226 }
+	color_ui = rgb { 255  10  226 }
+}
+
+HUR = {
+	color = rgb { 142  96  5 }
+	color_ui = rgb { 142  96  5 }
+}
+
+VNL = {
+	color = rgb { 0  100  40 }
+	color_ui = rgb { 0  100  40 }
+}
