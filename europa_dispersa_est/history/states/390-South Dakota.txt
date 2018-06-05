@@ -4,13 +4,13 @@ state={
 	name="STATE_390"
 
 	history={
-		owner = USA
+		owner = SIO
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 
 		}
-		add_core_of = USA
+		add_core_of = SIO
 		victory_points = {
 			1747 1 
 		}
