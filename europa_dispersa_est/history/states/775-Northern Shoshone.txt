@@ -1,18 +1,20 @@
-	
+
 state={
 	id=775
 	name="STATE_775"
-	
+
 	history={
 		owner = SHO
 		add_core_of = SHO
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	
+
 	provinces={
-		1262 1832 1854 4838 7779 7820 10693 11712 12578 12676 
+		1262 1832 1854 4765 4838 4877 7779 7820 10693 11712 12578 12676 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

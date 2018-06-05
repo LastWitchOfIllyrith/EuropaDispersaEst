@@ -2,25 +2,31 @@
 state={
 	id=471
 	name="STATE_471"
+	resources={
+		aluminium=4.000
+	}
 
 	history={
 		owner = CHR
 		add_core_of = CHR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			10548 = {
 				naval_base = 1
 
 			}
 
 		}
+		victory_points = {
+			10548 1 
+		}
 
 	}
 
 	provinces={
-		1799 5403 10548 
+		1799 1872 5403 10548 13202 
 	}
-	manpower=27681
+	manpower=33228
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

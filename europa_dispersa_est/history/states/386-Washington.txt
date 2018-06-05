@@ -2,27 +2,20 @@
 state={
 	id=386
 	name="STATE_386"
-
+	
 	history={
 		owner = CHR
 		add_core_of = CHR
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
-			dockyard = 1
-			air_base = 5
-			7315 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 5
+			arms_factory = 2
 		}
 		victory_points = {
-			1690 1 
+			12214 3 
 		}
+		
 		victory_points = {
-			7315 10 
+			10690 5 
 		}
 
 	}
@@ -30,7 +23,7 @@ state={
 	provinces={
 		7255 7442 10155 10271 10690 12155 12214 
 	}
-	manpower=1563395
+	manpower=1776311
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

@@ -12,6 +12,9 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = CHR
+		victory_points = {
+			7259 1 
+		}
 	}
 
 	provinces={

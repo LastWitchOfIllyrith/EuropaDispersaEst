@@ -3,8 +3,8 @@ state={
 	id=378
 	name="STATE_378"
 	resources={
-		oil=180.000
-		aluminium=8.000
+		oil=8.000
+		aluminium=3.000
 	}
 
 	history={
@@ -12,46 +12,30 @@ state={
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
-			industrial_complex = 6
-			dockyard = 2
-			air_base = 10
-			1562 = {
-				naval_base = 10
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 6
+			986 = {
+				naval_base = 6
 
 			}
-			9671 = {
-				naval_base = 4
-
-			}
-			9814 = {
-				naval_base = 5
-
-			}
-			610 = {
-				naval_base = 1
-
-			}
-
+		}
+		victory_points = {
+			941 1
+		}
+		victory_points = {
+			986 5
+		}
+		victory_points = {
+			6861 3
 		}
 		add_core_of = CME
-		victory_points = {
-			9814 30 
-		}
-		victory_points = {
-			1562 15 
-		}
-		victory_points = {
-			9671 25 
-		}
-		victory_points = {
-			9713 1 
-		}
 	}
 
 	provinces={
 		941 986 3784 3840 4518 6861 6881 9911 11763 11876 
 	}
-	manpower=5677248
+	manpower=3677248
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

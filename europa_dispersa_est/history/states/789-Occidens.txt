@@ -5,12 +5,27 @@ state={
 		owner = CME
 		add_core_of = CME
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+		}
+		victory_points = {
+			3588 5
+		}
+		
+		victory_points = {
+			610 3
+		}
+		
+		victory_points = {
+			11658 10
 		}
 	}
 	provinces={
 		610 677 768 781 3588 6681 6745 6757 6772 9730 10159 11658 
 	}
-	manpower=0
+	manpower=3231773
 	buildings_max_level_factor=1.000
+	state_category=	large_town
 }

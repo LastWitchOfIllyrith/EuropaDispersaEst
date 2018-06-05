@@ -1,18 +1,31 @@
+
 state={
 	id=777
 	name="STATE_777"
-	
+	resources={
+		oil=1.000
+	}
+
 	history={
 		owner = CHR
 		add_core_of = CHR
 		buildings = {
 			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+
 		}
+		victory_points = {
+			917 1 
+		}
+
 	}
-	
+
 	provinces={
-		917 1411 7858 12508 12571 
+		917 2407 3606 4678 7696 7830 7858 7891 10703 12508 
 	}
-	manpower=0
+	manpower=16643
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

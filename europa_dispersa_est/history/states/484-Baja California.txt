@@ -7,7 +7,6 @@ state={
 		owner = CME
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 			1892 = {
 				naval_base = 2
 
@@ -18,6 +17,9 @@ state={
 			}
 
 		}
+		victory_points = {
+			12461 1
+		}
 		add_core_of = CME
 
 	}
@@ -25,7 +27,7 @@ state={
 	provinces={
 		1892 1904 4727 7964 7986 8119 12374 12461 12736 12859 
 	}
-	manpower=108841
+	manpower=74510
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

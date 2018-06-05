@@ -1,18 +1,26 @@
+
 state={
 	id=774
 	name="STATE_774"
-	
+
 	history={
 		owner = CHR
 		add_core_of = CHR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 		}
+		victory_points = {
+			7853 3 
+		}
+
 	}
-	
+
 	provinces={
-		1737 4343 7761 7853 10644 
+		1411 1737 4343 7761 7853 10644 
 	}
-	manpower=0
+	manpower=725717
 	buildings_max_level_factor=1.000
+	state_category=town
 }
