@@ -1,0 +1,14 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		668 671 3675 6673 
+	}
+
+	history={
+		owner = VEN
+		add_core_of = VEN
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

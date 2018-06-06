@@ -1,0 +1,26 @@
+
+state={
+	id=209
+	name="STATE_209"
+
+	history={
+		owner = LIT
+		victory_points = {
+			11202 3 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 4
+
+		}
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		95 415 3310 6324 9319 11097 11202 11304 11392 
+	}
+	manpower=639587
+	buildings_max_level_factor=1.000
+	state_category=town
+}
