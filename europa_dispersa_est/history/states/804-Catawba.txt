@@ -1,17 +1,16 @@
 state={
-	id=795
-	name="STATE_795"
-	
+	id=804
+	name="STATE_804"
+
 	history={
-		owner = SIO
-		add_core_of = SIO
+		owner = CHE
+		add_core_of = CHE
 		buildings = {
 			infrastructure = 1
 		}
 	}
-	
 	provinces={
-		1683 1875 3613 3855 7771 7840 7852 12516 12586 
+		1485 1547 3994 4653 7202 7527 10029 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
