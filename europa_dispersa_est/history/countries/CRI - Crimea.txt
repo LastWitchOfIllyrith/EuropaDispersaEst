@@ -1,0 +1,33 @@
+capital = 137
+
+oob = "CRI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 100
+
+set_politics = {
+
+	parties = {
+		militant_theocracy = {popularity = 100}
+		monarchism = {popularity = 0}
+		heavenly_mandate = {popularity = 0}
+		popular_traditionalism = {popularity = 0}
+		autonomous_councilism = {popularity = 0}
+		absolute_councilism = {popularity = 0}
+		popular_councilism = {popularity = 0}
+		collaborative_councilism = {popularity = 0}
+		orthodox_mazdakist = {popularity = 0}
+		vanguardist_mazdakist = {popularity = 0}
+		popular_mazdakist = {popularity = 0}
+	}
+	
+	ruling_party = militant_theocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
