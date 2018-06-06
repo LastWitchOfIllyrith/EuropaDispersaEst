@@ -2,6 +2,14 @@
 state={
 	id=779
 	name="STATE_779"
+
+	history={
+		owner = SAM
+		add_core_of = SAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
 	provinces={
 		515 3706 6726 7787 9669 10684 11440 
 	}
