@@ -1,0 +1,20 @@
+﻿l_english:
+
+#Religion
+state_religion:0 "State Religion"
+religion_state_atheism:0 "State Atheism"
+religion_secular:0 "Secular"
+religion_sunni:0 "Sunni"
+religion_shia:0 "Shi'a"
+religion_eastern_christianity:0 "Eastern Christianity"
+religion_western_christianity:0 "Western Christianity"
+religion_orthodox_christianity:0 "Orthodox Christianity"
+religion_guifeianism:0 "Guifeianism"
+religion_coptic:0 "Coptic"
+religion_hinduism:0 "Hinduism"
+religion_buddhism:0 "Buddhism"
+religion_norse:0 "Norse"
+religion_slavic:0 "Slavic"
+religion_teotlic:0 "Teotlic"
+religion_mayan:0 "Mayan"
+religion_animist_minor:0 "Animist Minor"

@@ -1,0 +1,1324 @@
+ideas = {
+
+####ECONOMY####
+
+economy = { 
+		law = yes
+		undisturbed_isolation = {
+			
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = 0.50
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.75
+			}
+			
+			allowed_to_remove = {
+				OR = {
+					has_war_support > 0.5
+					has_war = yes
+				}
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		isolation = {
+			
+			
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_speed_industrial_complex_factor = -0.4
+				production_speed_arms_factory_factor = -0.4
+				conversion_cost_civ_to_mil_factor= 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.5
+			}
+			allowed_to_remove = {
+				OR = {
+					has_war_support > 0.75
+					has_war = yes					
+				}
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		civilian_economy = {
+			
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				conversion_cost_civ_to_mil_factor= 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		low_economic_mobilisation = {
+			
+			available = {
+					has_war_support > 0.15
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}	
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 20
+					
+					is_major = yes
+				}
+   			}
+		}
+		
+		partial_economic_mobilisation = {
+			
+			available = {
+				has_war_support > 0.25
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					OR = {
+						has_completed_focus = HUN_secret_rearmament
+						NOT = { has_idea = HUN_treaty_of_triannon }
+					}
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 20
+					
+					is_major = yes
+				}
+   			}
+		}
+		
+		war_economy = {
+			
+			
+			available = {
+				has_war_support > 0.5
+				OR = {
+					has_government = fascism
+					has_government = communism
+					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
+					AND = {
+						has_war = yes
+						any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.4
+							}
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}		
+			}
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
+				conversion_cost_civ_to_mil_factor= -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 5
+
+				modifier = {
+					#High prio on production
+					factor = 20
+					manpower_per_military_factory >  1000
+				}
+   			}
+		}
+		
+		tot_economic_mobilisation = {
+			
+			
+			available = {
+				has_war = yes
+				has_war_support > 0.8
+				any_enemy_country = {
+					ic_ratio = { 
+						tag = ROOT 
+						ratio > 0.5
+					}
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					factor = 25
+					#Prio this if nation has a lot of manpower compared to MIC
+					manpower_per_military_factory >  10000
+				}
+
+				modifier = {
+					#Block  unless nation has a lot of manpower
+					factor = 0
+					manpower_per_military_factory <  3000
+				}
+
+				
+				modifier = {
+					# never take this if we are on low conscription laws for safety
+					factor = 0
+					OR = {
+						has_idea = volunteer_only
+						has_idea = limited_conscription
+					}
+				}				
+   			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				conscription = -0.03
+				production_speed_arms_factory_factor = 0.3
+				conversion_cost_civ_to_mil_factor= -0.3
+				conversion_cost_mil_to_civ_factor = -0.3
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	trade_laws = { 
+		law = yes
+
+		free_trade = {
+			
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_time_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		export_focus = {
+			
+			available = {
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
+			}
+			
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_time_factor = -0.05
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+				# portugal and sweden are special tungsten snowflakes
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+					is_in_faction = no
+					OR = {
+						tag = POR
+						tag = SWE
+					}
+				}
+   			}
+		}
+		
+		limited_exports = {
+			
+			
+			available = {
+				OR = {
+					AND = {
+						has_government = democratic
+						has_war = yes
+						any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.2
+							}
+						}
+					}
+					AND = {
+						NOT = { has_government = democratic }
+						OR = {
+							has_idea = partial_economic_mobilisation
+							has_idea = war_economy
+							has_idea = tot_economic_mobilisation
+						}
+					}
+				}
+
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
+			}
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_time_factor = -0.01
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+				}
+   			}
+		}
+		
+		closed_economy = {
+			
+			
+			available = {
+				has_war = yes
+				OR = { 
+					has_government = fascism
+					has_government = communism
+				}
+				OR = {
+					has_idea = war_economy
+					has_idea = tot_economic_mobilisation
+				}
+				OR = {
+					NOT = {	tag = SOV }
+					NOT = { has_opinion_modifier = MR_pact }
+				}
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			
+			modifier = {
+				min_export = 0
+			}
+			
+			on_add = {
+				custom_effect_tooltip = closed_economy_TT
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+				}
+   			}
+		}
+	}
+
+####RECRUITMENT####
+
+	mobilization_laws = { 
+		law = yes
+
+		disarmed_nation = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		volunteer_only = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 6
+			
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 60 # being disarmed is bad in a wargame yo
+					has_idea = disarmed_nation 
+				}
+			}
+
+			modifier = {
+				conscription = 0.015
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		limited_conscription = {
+					
+			cost = 150
+			removal_cost = -1
+			level = 5
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
+				has_war_support > 0.1
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_citizen_military_forces
+				}
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = CAN_commit_to_the_war
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			modifier = {
+				conscription = 0.025
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  1000
+				}
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		extensive_conscription = {
+			
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
+				OR = {
+					has_government = fascism
+					has_government = communism
+					AND = {
+						has_war = yes
+						enemies_strength_ratio > 0.5
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT 
+						#		ratio > 0.5
+						#	}
+						#}
+					}					
+				}
+				has_war_support > 0.2
+				#Special rules AST in TFV
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_citizen_military_forces
+					has_completed_focus = AST_fight_work_or_perish
+				}				
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = CAN_commit_to_the_war
+					has_completed_focus = CAN_if_day
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  800
+				}
+
+				modifier = { # china relies a lot on throwing bodies at the enemy
+					factor = 3
+
+					tag = CHI
+					has_manpower < 200000
+				}
+			}
+			
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			modifier = {
+				conscription = 0.05
+				#industrial_capacity_factory = -0.1
+				#production_speed_buildings_factor = -0.1
+				training_time_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_by_requirement = {
+			
+			
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
+				OR = {
+					has_government = fascism
+					has_government = communism
+					AND = {
+						has_war = yes
+						enemies_strength_ratio > 0.6
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT 
+						#		ratio > 0.6
+						#	}
+						#}
+					}
+				}
+				OR = {
+					has_war_support > 0.6
+					surrender_progress > 0
+				}
+
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_citizen_military_forces
+					has_completed_focus = AST_fight_work_or_perish
+				}
+
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					OR = {
+						has_completed_focus = CAN_compromise_with_quebec
+						has_completed_focus = CAN_forced_quebec_conscription
+					}
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  700
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					#Block has plenty manpower
+					factor = 0
+					NOT = { tag = CHI }
+					manpower_per_military_factory >  3000
+				}
+
+				modifier = { # china relies a lot on throwing bodies at the enemy
+					factor = 3
+
+					tag = CHI
+					has_manpower < 200000
+				}
+			}
+			
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				conscription = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.2
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		all_adults_serve = {
+			
+			
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
+				has_war = yes
+				OR = {
+					has_war_support > 0.7
+					surrender_progress > 0
+				}
+				enemies_strength_ratio > 0.75
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT 
+				#		ratio > 0.75
+				#	}
+				#}
+
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_citizen_military_forces
+					has_completed_focus = AST_fight_work_or_perish
+				}
+
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					OR = {
+						has_completed_focus = CAN_compromise_with_quebec
+						has_completed_focus = CAN_forced_quebec_conscription
+					}					
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  600
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					#Block has plenty manpower
+					factor = 0
+					NOT = { tag = CHI }
+					manpower_per_military_factory >  5000
+				}
+
+				modifier = { # china relies a lot on throwing bodies at the enemy
+					factor = 3
+
+					tag = CHI
+					has_manpower < 200000
+				}
+			}
+		
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				conscription = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				#XP from reinforcement penalty (small)
+				training_time_factor = 0.3
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		scraping_the_barrel = {
+			
+			
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
+				has_war = yes
+				OR = {
+					has_war_support > 0.85
+					surrender_progress > 0.25
+				}
+				enemies_strength_ratio > 1
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT 
+				#		ratio > 1
+				#	}
+				#}
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_citizen_military_forces
+					has_completed_focus = AST_fight_work_or_perish
+				}
+
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					OR = {
+						has_completed_focus = CAN_compromise_with_quebec
+						has_completed_focus = CAN_forced_quebec_conscription
+					}
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  500
+				}				
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					#Block has plenty manpower
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+				conscription = 0.25
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	####STATE RELIGION####
+	
+	state_religion = { 
+		law = no
+		
+		religion_state_atheism = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = religion_state_atheism
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_secular = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = religion_secular
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_sunni = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_sunni
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_shia = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_shia
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_eastern_christianity = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_eastern_christianity
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_western_christianity = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_western_christianity
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_orthodox_christianity = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_orthodox_christianity
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_guifeianism = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_guifeianism
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_coptic = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_coptic
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_hinduism = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_hinduism
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_buddhism = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_buddhism
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_norse = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_norse
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_slavic = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_slavic
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_teotlic = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_teotlic
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_mayan = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_mayan
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_animist_minor = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_slavic
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	
+	
+	
+	
+}
