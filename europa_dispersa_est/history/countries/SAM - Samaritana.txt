@@ -10,6 +10,10 @@ set_technology = {
 
 set_convoys = 50
 
+add_ideas = {
+religion_eastern_christianity
+}
+
 set_politics = {
 
 	parties = {

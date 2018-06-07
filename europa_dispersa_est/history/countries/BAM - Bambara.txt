@@ -10,6 +10,10 @@ set_technology = {
 
 set_convoys = 0
 
+add_ideas = {
+religion_animist_minor #with some islamic influence
+}
+
 set_politics = {
 
 	parties = {
