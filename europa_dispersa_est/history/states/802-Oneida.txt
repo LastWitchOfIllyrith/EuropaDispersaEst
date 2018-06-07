@@ -2,8 +2,19 @@
 state={
 	id=802
 	name="STATE_802"
+	
+	history={
+		owner = HAU
+		add_core_of = HAU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
 	provinces={
-		598 3602 6916 9721 9754 11722 
+		598 6916 9721 9754 11722 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
