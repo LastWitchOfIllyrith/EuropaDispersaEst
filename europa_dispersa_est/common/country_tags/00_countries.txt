@@ -38,7 +38,7 @@ GEO = "countries/Georgia.txt"
 GRE = "countries/Georgia.txt"
 HEL = "countries/Helvetica.txt"
 LIT = "countries/Lithuania.txt"
-KUR = "countries/Kurdistan.txt"
+KRD = "countries/Kurdistan.txt"
 MED = "countries/Mediterranean.txt"
 OTO = "countries/Ottoman.txt"
 ROM = "countries/Rome.txt"
@@ -71,6 +71,7 @@ NAA = "countries/Naaji.txt"
 
 #african tags
 
+CAS = "countries/Cairo and the Sinai.txt"
 ETH = "countries/Ethiopia.txt"
 SWA = "countries/Swahili.txt"
 ZUL = "countries/Zulu.txt"
