@@ -65,6 +65,8 @@ OMA = "countries/Oman.txt"
 ORM = "countries/Ormus.txt"
 PER = "countries/Persia.txt"
 SAY = "countries/Sayyid.txt"
+BER = "countries/Berbers.txt"
+NAA = "countries/Naaji.txt"
 
 
 #african tags

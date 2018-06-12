@@ -1,6 +1,6 @@
 #reload countrycolors
 
-#Africa
+#### Africa ####
 
 ETH = {
 	color = rgb { 0  255  33 }
@@ -172,7 +172,30 @@ TRZ = {
 	color_ui = rgb { 222  183  131 }
 }
 
-#North America
+#### MENA ####
+
+MOR = {
+	color = rgb { 255  29  25 }
+	color_ui = rgb { 255  29  25 }
+}
+
+BER = {
+	color = rgb { 218  163  122 }
+	color_ui = rgb { 218  163  122 }
+}
+
+LIB = {
+	color = rgb { 255  0  165 }
+	color_ui = rgb { 255  0  165 }
+}
+
+NAA = {
+	color = rgb { 47  96  155 }
+	color_ui = rgb { 47  96  155 }
+}
+
+
+#### North America ####
 
 CHR = {
 	color = rgb { 255  216  0 }
