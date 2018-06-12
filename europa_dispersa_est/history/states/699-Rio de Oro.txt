@@ -4,7 +4,8 @@ state={
 	name="STATE_699"
 
 	history={
-		owner = SPR
+		owner = MOR
+		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
 			8038 = {
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		4920 5012 7979 8038 8111 10875 12857 
+		4920 5012 5034 5077 7979 7992 8038 8111 10875 
 	}
 	manpower=32000
 	buildings_max_level_factor=1.000

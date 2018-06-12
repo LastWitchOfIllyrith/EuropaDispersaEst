@@ -1,22 +1,21 @@
 
 state={
-	id=515
-	name="STATE_515"
+	id=661
+	name="STATE_661"
 
 	history={
-		owner = WAD
-		add_core_of = WAD
+		owner = LIB
+		add_core_of = LIB
 		buildings = {
 			infrastructure = 1
 
 		}
-
 	}
 
 	provinces={
-		4902 5136 8103 
+		1105 1118 1174 4051 4176 7066 7209 9980 10067 11957 12000 12009 12039 
 	}
-	manpower=1482744
+	manpower=17617
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

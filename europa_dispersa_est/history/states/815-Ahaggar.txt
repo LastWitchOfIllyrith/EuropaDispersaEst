@@ -1,22 +1,21 @@
 
 state={
-	id=552
-	name="STATE_552"
-
+	id=815
+	name="STATE_815"
+	
 	history={
 		owner = NAA
 		add_core_of = NAA
 		buildings = {
 			infrastructure = 0
 
-		}
+		}	
 	}
-
+	
 	provinces={
-		1143 2064 5078 7216 7987 10127 10869 10900 10907 12033 12091 12099 12733 12764 12816 
+		1956 1994 4117 4962 4992 5004 7136 7154 7194 7985 8069 8128 10037 10749 10884 10893 11940 12022 12082 12866 13073 
 	}
-	manpower=26539
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 	impassable = yes
 }

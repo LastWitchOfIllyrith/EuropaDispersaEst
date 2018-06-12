@@ -1,18 +1,21 @@
+
 state={
-	id=811
-	name="STATE_811"
-	
+	id=818
+	name="STATE_818"
+
 	history={
 		owner = MOR
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			industrial_complex = 0
+
 		}
+
 	}
-	
+
 	provinces={
-		854 3946 6915 6917 6927 9764 9824 9853 11779 
+		1111 1152 4154 4933 7116 7908 7958 8046 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

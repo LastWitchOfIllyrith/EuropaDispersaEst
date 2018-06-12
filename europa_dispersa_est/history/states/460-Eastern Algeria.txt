@@ -1,0 +1,22 @@
+
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1160 4046 7065 7081 7166 10078 12051 
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
+}

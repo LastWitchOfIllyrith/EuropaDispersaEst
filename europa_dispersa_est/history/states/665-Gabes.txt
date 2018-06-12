@@ -1,0 +1,22 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1141 3987 4061 7005 9943 10026 10082 11935 13145 13179 
+	}
+	manpower=427824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

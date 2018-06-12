@@ -1,0 +1,23 @@
+
+state={
+	id=175
+	name="STATE_175"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		858 888 3945 3986 6800 6879 6914 9757 9852 9881 11742 11863 11870 
+	}
+	manpower=848903
+	buildings_max_level_factor=1.000
+	state_category=town
+}

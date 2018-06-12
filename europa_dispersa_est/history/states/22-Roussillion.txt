@@ -1,18 +1,21 @@
 
 state={
-	id=31
-	name="STATE_31"
+	id=22
+	name="STATE_22"
+	resources={
+		steel=70.000
+		aluminium=50.000
+	}
 
 	history={
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {
-			6766 5 
+			9898 1 
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 2
 
 		}
@@ -20,9 +23,9 @@ state={
 	}
 
 	provinces={
-		929 943 3740 3749 3915 6759 6766 6931 9717 9882 9884 11699 12169 
+		760 3751 6770 6960 6962 9723 9898 11709 11711 11877 
 	}
-	manpower=1825000
+	manpower=1691200
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }

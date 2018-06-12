@@ -1,0 +1,45 @@
+﻿capital = 461
+
+oob = "MOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 200
+
+add_ideas = {
+religion_sunni
+}
+
+set_politics = {
+
+	parties = {
+		militant_theocracy = {popularity = 2}
+		monarchism = {popularity = 20}
+		heavenly_mandate = {popularity = 2}
+		popular_traditionalism = {popularity = 17}
+		autonomous_councilism = {popularity = 1}
+		absolute_councilism = {popularity = 20}
+		popular_councilism = {popularity = 17}
+		collaborative_councilism = {popularity = 14}
+		orthodox_mazdakist = {popularity = 4}
+		vanguardist_mazdakist = {popularity = 2}
+		popular_mazdakist = {popularity = 1}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mohammed V"
+	desc = "POLITICS_MOHAMMED_V_DESC"
+	picture = "Portrait_Morocco_Mohammed_V.tga"
+	expire = "1965.1.1"
+	ideology = monarchism_generic
+}

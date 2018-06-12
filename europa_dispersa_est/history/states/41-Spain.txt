@@ -1,0 +1,31 @@
+
+state={
+	id=41
+	name="STATE_41"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			3938 30.0 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+
+		}
+
+	}
+
+	provinces={
+		794 845 874 896 938 939 3794 3845 3874 3938 6867 6907 9770 9800 9827 9839 9846 9917 11756 11820 
+	}
+	manpower=2269659
+	buildings_max_level_factor=1.000
+	state_category=city
+}

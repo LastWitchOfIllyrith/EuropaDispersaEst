@@ -1,0 +1,17 @@
+
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = BER
+		add_core_of = BER
+
+	}
+
+	provinces={
+		1128 3991 4018 7008 7033 7040 7149 9960 10045 12018 12020 13074 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

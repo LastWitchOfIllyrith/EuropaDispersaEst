@@ -1,28 +1,31 @@
 
 state={
-	id=31
-	name="STATE_31"
+	id=118
+	name="STATE_118"
 
 	history={
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {
-			6766 5 
+			4135 10 
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
 			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+
+			}
 
 		}
 
 	}
 
 	provinces={
-		929 943 3740 3749 3915 6759 6766 6931 9717 9882 9884 11699 12169 
+		4135 
 	}
-	manpower=1825000
+	manpower=21372
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=enclave
 }
