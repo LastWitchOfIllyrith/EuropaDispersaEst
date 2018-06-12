@@ -1,0 +1,14 @@
+state={
+	id=827
+	name="STATE_827"
+
+	history={
+		owner = KRD
+		add_core_of = KRD
+		}
+	provinces={
+		1606 1634 6883 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

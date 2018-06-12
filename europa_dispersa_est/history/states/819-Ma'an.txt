@@ -1,13 +1,12 @@
-
 state={
-	id=810
-	name="STATE_810"
+	id=819
+	name="STATE_819"
 	history = {
 		owner = MAS
 		add_core_of = MAS
 		}
 	provinces={
-		1065 1086 1201 7107 
+		4562 4603 11976 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

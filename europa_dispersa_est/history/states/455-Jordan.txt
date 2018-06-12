@@ -1,33 +1,26 @@
 
 state={
-	id=454
-	name="STATE_454"
+	id=455
+	name="STATE_455"
 
 	history={
 		owner = MAS
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			industrial_complex = 1
-			air_base = 2
-			4206 = {
-				naval_base = 3
-
-			}
 
 		}
 		victory_points = {
-			1086 1 
-		}
-		victory_points = {
-			4206 1 
+			7151 1 
 		}
 		add_core_of = MAS
+
 	}
 
 	provinces={
-		1 4206 
+		4574 4591 7151 7170 10089 
 	}
-	manpower=933142
+	manpower=932000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
