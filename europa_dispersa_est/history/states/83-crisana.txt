@@ -1,0 +1,27 @@
+
+state={
+	id=83
+	name="STATE_83"
+
+	history={
+		owner = TEM
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6682 1 
+		}
+		add_core_of = TEM
+
+	}
+
+	provinces={
+		679 696 6670 6682 6697 6700 9640 9656 11625 11646 
+	}
+	manpower=632900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

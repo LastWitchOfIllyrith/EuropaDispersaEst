@@ -1,6 +1,10 @@
 state={
 	id=834
 	name="STATE_834"
+		history = {
+		owner = OTT
+		add_core_of = OTT
+			}
 	provinces={
 		961 4008 4124 6807 7026 7143 9763 9830 10056 
 	}

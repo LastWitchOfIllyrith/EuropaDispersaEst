@@ -1,0 +1,13 @@
+state={
+	id=835
+	name="STATE_835"
+		history = {
+			owner = MOL
+			add_core_of = MOL
+			}
+	provinces={
+		657 687 3076 9635 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

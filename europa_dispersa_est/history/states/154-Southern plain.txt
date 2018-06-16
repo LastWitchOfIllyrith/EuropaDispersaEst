@@ -1,29 +1,28 @@
 
 state={
-	id=151
-	name="STATE_151"
-	resources={
-		aluminium=15.000
-	}
+	id=154
+	name="STATE_154"
 
 	history={
-		owner = HEL
+		owner = TRA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
 
 		}
 		victory_points = {
-			663 10 
+			11659 1 
 		}
-		add_core_of = HEL
+		add_core_of = TRA
 
 	}
 
 	provinces={
-		658 661 663 3641 3660 3662 6678 6680 9600 11601 11623 
+		699 730 3730 6735 9706 11644 11659 
 	}
-	manpower=1854711
+	manpower=2735383
 	buildings_max_level_factor=1.000
 	state_category=city
 }
