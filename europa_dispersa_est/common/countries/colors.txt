@@ -175,8 +175,8 @@ TRZ = {
 #### MENA ####
 
 MOR = {
-	color = rgb { 255  29  25 }
-	color_ui = rgb { 255  29  25 }
+	color = rgb { 193  19  45 }
+	color_ui = rgb { 193  19  45 }
 }
 
 BER = {
@@ -299,6 +299,8 @@ NML = {
 	color_ui = rgb { 235  141  34 }
 }
 
+#### Moroccan Civil War ####
+
 LAL = {
 	color = rgb { 111  188  83 }
 	color_ui = rgb { 111  188  83 }
@@ -342,4 +344,126 @@ CAT = {
 IBU = {
 	color = rgb { 79  69  192 }
 	color_ui = rgb { 79  69  192 }
+}
+
+#### Europe ####
+
+BRE = {
+	color = rgb { 80  80  80 }
+	color_ui = rgb { 80  80  80 }
+}
+
+FRA = {
+	color = rgb { 86  201  255 }
+	color_ui = rgb { 86  201  255 }
+}
+
+BUR = {
+	color = rgb { 140 0 26 }
+	color_ui = rgb { 140 0 26 }
+}
+
+FRI = {
+	color = rgb { 255  199  0 }
+	color_ui = rgb { 255  199  0 }
+}
+
+ALM = {
+	color = rgb { 191  127  0 }
+	color_ui = rgb { 91  127  0 }
+}
+
+HEL = {
+	color = rgb { 199  199  140 }
+	color_ui = rgb { 199  199  140 }
+}
+
+FOM = {
+	color = rgb { 154  0  154 }
+	color_ui = rgb { 154  0  154 }
+}
+
+ROM = {
+	color = rgb { 255  212  0 }
+	color_ui = rgb { 255  212  0 }
+}
+
+VEN = {
+	color = rgb { 0  100  278 }
+	color_ui = rgb { 128  0  0 }
+}
+
+VEL = {
+	color = rgb { 84  42  213 }
+	color_ui = rgb { 84  42  213 }
+}
+
+BOS = {
+	color = rgb { 50  250  0 }
+	color_ui = rgb { 50  250  0 }
+}
+
+OTT = {
+	color = rgb { 38  127  0 }
+	color_ui = rgb { 38  127  0 }
+}
+
+POM = {
+	color = rgb { 27  46  174}
+	color_ui = rgb { 27  46  174}
+}
+
+PRU = {
+	color = rgb { 244  248  88}
+	color_ui = rgb { 244  238  88}
+}
+
+LIT = {
+	color = rgb { 0  128  128 }
+	color_ui = rgb { 0  128  128 }
+}
+
+GAL = {
+	color = rgb { 178  0  255 }
+	color_ui = rgb { 178  0  255 }
+}
+
+TRA = {
+	color = rgb { 230  150  0 }
+	color_ui = rgb { 230  150  0 }
+}
+
+REY = {
+	color = rgb { 127  155  155 }
+	color_ui = rgb { 127  155  155 }
+}
+
+MOL = {
+	color = rgb { 27  155  155 }
+	color_ui = rgb { 27  155  155 }
+}
+
+CRI = {
+	color = rgb { 255  99  71 }
+	color_ui = rgb { 255  99  71 }
+}
+
+TEM = {
+	color = rgb { 255  252  79 }
+	color_ui = rgb { 255  252  79 }
+}
+
+GRE = {
+	color = rgb { 71  255  212 }
+	color_ui = rgb { 71  255  212 }
+}
+
+CEL = {
+	color = rgb { 0  155  25 }
+	color_ui = rgb { 0  155  25 }
+}
+
+SKO = {
+	color = rgb { 97  94  155 }
+	color_ui = rgb { 97  94  155 }
 }
