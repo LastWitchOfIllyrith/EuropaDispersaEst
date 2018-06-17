@@ -67,6 +67,17 @@ PRU = "countries/Prusa.txt"
 VEN = "countries/Venice.txt"
 VEL = "countries/Velka Moravia.txt"
 
+#MCW tags
+LAL = "countries/Loyalist Al-Andalus.txt"
+RAL = "countries/Rebel Al-Andalus.txt"
+NVR = "countries/Navarre.txt"
+AST = "countries/Asturies.txt"
+POR = "countries/Portugal.txt"
+OCC = "countries/Occitania.txt"
+SAH = "countries/Saharawi.txt"
+CAT = "countries/Catalonia.txt" #Cat Alunya
+IBU = "countries/Iberian Union.txt"
+	
 #MENA tags
 
 AKA = "countries/Arabia.txt"

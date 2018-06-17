@@ -298,3 +298,48 @@ NML = {
 	color = rgb { 235  141  34 }
 	color_ui = rgb { 235  141  34 }
 }
+
+LAL = {
+	color = rgb { 111  188  83 }
+	color_ui = rgb { 111  188  83 }
+}
+
+RAL = {
+	color = rgb { 70  142  120 }
+	color_ui = rgb { 70  142  120 }
+}
+
+NVR = {
+	color = rgb { 206  15  37 }
+	color_ui = rgb { 206  15  37 }
+}
+
+AST = {
+	color = rgb { 0  102  255 }
+	color_ui = rgb { 0  102  255 }
+}
+
+POR = {
+	color = rgb { 106  171  58 }
+	color_ui = rgb { 106  171  58 }
+}
+
+OCC = {
+	color = rgb { 253  221  0 }
+	color_ui = rgb { 253  221  0 }
+}
+
+SAH = {
+	color = rgb { 151  198  202 }
+	color_ui = rgb { 151  198  202 }
+}
+
+CAT = {
+	color = rgb { 225  102  43 }
+	color_ui = rgb { 225  102  43 }
+}
+
+IBU = {
+	color = rgb { 79  69  192 }
+	color_ui = rgb { 79  69  192 }
+}
