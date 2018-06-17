@@ -261,3 +261,40 @@ VNL = {
 	color = rgb { 0  100  40 }
 	color_ui = rgb { 0  100  40 }
 }
+
+#### South America ####
+
+QUS = {
+	color = rgb { 116  155  208 }
+	color_ui = rgb { 116  155  208 }
+}
+
+CSY = {
+	color = rgb { 166  68  128 }
+	color_ui = rgb { 166  68  128 }
+}
+
+ASY = {
+	color = rgb { 98  148  75 }
+	color_ui = rgb { 98  148  75 }
+}
+
+KSY = {
+	color = rgb { 248  149  68 }
+	color_ui = rgb { 248  149  68 }
+}
+
+QSY = {
+	color = rgb { 54  72  104 }
+	color_ui = rgb { 54  72  104 }
+}
+
+MUI = {
+	color = rgb { 129  108  66 }
+	color_ui = rgb { 129  108  66 }
+}
+
+NML = {
+	color = rgb { 235  141  34 }
+	color_ui = rgb { 235  141  34 }
+}

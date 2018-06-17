@@ -1,0 +1,22 @@
+
+state={
+	id=494
+	name="STATE_494"
+
+	history={
+		owner = QUS
+		add_core_of = QUS
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		5166 
+	}
+	manpower=735826
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

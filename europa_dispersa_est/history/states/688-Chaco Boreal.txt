@@ -1,0 +1,26 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+		tungsten=3.000
+		steel=2.000
+	}
+
+	history={
+		owner = ASY
+		add_core_of = ASY
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		10944 12922 12943 
+	}
+	manpower=45900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

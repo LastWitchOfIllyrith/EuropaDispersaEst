@@ -1,0 +1,22 @@
+
+state={
+	id=491
+	name="STATE_491"
+
+	history={
+		owner = CSY
+		add_core_of = CSY
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2212 5162 10970 
+	}
+	manpower=176626
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

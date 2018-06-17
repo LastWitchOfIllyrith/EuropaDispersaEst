@@ -1,0 +1,33 @@
+
+state={
+	id=489
+	name="STATE_489"
+	resources={
+		oil=70.000
+	}
+
+	history={
+		owner = MUI
+		add_core_of = MUI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			1944 = {
+				naval_base = 5
+
+			}
+
+		}
+		victory_points = {
+			1944 1 
+		}
+
+	}
+
+	provinces={
+		1937 1944 1997 2052 2085 4526 5088 7993 8056 10855 12772 12845 
+	}
+	manpower=1576373
+	buildings_max_level_factor=1.000
+	state_category=town
+}

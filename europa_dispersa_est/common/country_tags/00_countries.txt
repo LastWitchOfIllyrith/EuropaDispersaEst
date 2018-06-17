@@ -16,6 +16,15 @@ UCJ = "countries/Ute-Cheyenne-Judean.txt"
 HUR = "countries/Huron.txt"
 VNL = "countries/Vinland.txt"
 
+#south american tags
+QUS = "countries/Qusqu.txt"
+CSY = "countries/Chinchasuyu.txt"
+ASY = "countries/Antisuyu.txt"
+KSY = "countries/Kuntisuyu.txt"
+QSY = "countries/Qullasuyu.txt"
+MUI = "countries/Muisca.txt"
+NML = "countries/New Mali.txt"
+
 #pacific & oceania tags
 
 AOT = "countries/Aotearoa.txt"
