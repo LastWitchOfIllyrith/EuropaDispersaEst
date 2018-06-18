@@ -1,10 +1,14 @@
+
 state={
 	id=825
 	name="STATE_825"
-	history = {
+
+	history={
 		owner = MAS
 		add_core_of = MAS
+
 	}
+
 	provinces={
 		1544 4440 7001 8101 
 	}
