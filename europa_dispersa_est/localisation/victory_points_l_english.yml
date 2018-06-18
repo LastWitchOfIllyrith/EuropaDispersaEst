@@ -1,0 +1,50 @@
+﻿l_english:
+
+ ###Noble Families and individuals who have fled or partly fled Europe:
+ #Pope Gregory III
+ #Karlings
+ #Agilolfings
+ #de Chaumontois
+ #Loupings
+ #Liutprands
+ #Hetanids  
+ 
+ 
+ #Christiania - Latin, French, German and Lombard names
+ VICTORY_POINTS_13203:0 "Stenger" #Named after Christian gold prospector Giacomo Stenger
+ VICTORY_POINTS_1830:0 "Furrure" #Was a fur trading post, named after the latin word for fur
+ VICTORY_POINTS_917:0 "Castrum Marzio" #Translated from Latin, Fort Marzio, founded by a Italian noble
+ VICTORY_POINTS_10548:0 "Navalia Novum" #Latin for new port
+ VICTORY_POINTS_4413:0 "Palais de l'Est d'Aix-la-Chapelle" #Eastern Palace of Aachen, the seat of the Karlings
+ VICTORY_POINTS_4385:0 "Atterrissage" #French for 'landing'
+ VICTORY_POINTS_1323:0 "Bois-de-Champ" #French for 'field of trees'
+ VICTORY_POINTS_7853:0 "Rós Brasc" #Lombardian for 'red hand'
+ VICTORY_POINTS_10198:0 "Castrum Fluminis" #Riverside Fort in Latin
+ VICTORY_POINTS_4428:0 "Orem Magna" #Great Fork in Latin
+ VICTORY_POINTS_7259:0 "Urbe Litore" #Beach City. Papal resort?
+ VICTORY_POINTS_7386:0 "Jerusalem Novum" #New Jerusalem
+ VICTORY_POINTS_12214:0 "Vergilia" #named after some vergil idk
+ VICTORY_POINTS_10690:0 "Viridi Vadis" #Green Flats in Latin. Naming a shitty place something really nice is usually a good strategy for getting people to settle there, I guess. Also, additional alliterative appeal!
+ 
+ #Christiania Meridiana - Should be Latin and some numbers of Tillamook (Oregon) Pomo (NoCal) and Chumash (SoCal) maybe
+ VICTORY_POINTS_10687:0 "Castrum Aestas" #Summer Fort
+ VICTORY_POINTS_4328:0 "Tillamook Apex" #Tillamook Point
+ VICTORY_POINTS_11495:0 "Quioh" #From the native name of Quuiich
+ VICTORY_POINTS_4347:0 "Moatak Maklaks" #From the Modoc term for the people who lived on the lake to the south
+ VICTORY_POINTS_3588:0 "Aes Vallis" #Ore Valley, a mining hub 
+ VICTORY_POINTS_610:0 "Pharus" #Lighthouse 
+ VICTORY_POINTS_11658:0 "Formosus Rus" #Fair Field harhar get it because fairfield is here 
+ VICTORY_POINTS_6876:0 "Artocopia" #Bakersfield, basically
+ VICTORY_POINTS_10422:0 "Mons Visum" #Mountainview 
+ VICTORY_POINTS_9671:0 "Nova Roma" #You get the gist of it dot jaypeg
+ VICTORY_POINTS_941:0 "Imus Via" #Lowest Road
+ VICTORY_POINTS_12399:0 "Biaichi'go'aih" #Shoshoni for Great Return, referencing their resettling in this region
+ VICTORY_POINTS_4799:0 "Sola Plagam" #Lonely Coast
+ VICTORY_POINTS_6861:0 "Calidas" #Hot Springs
+ VICTORY_POINTS_9814:0 "Panormi Orientis" #East Palermo
+ VICTORY_POINTS_12461:0 "Imperium Magno" #Great Imperial
+ VICTORY_POINTS_7517:0 "Acus" #Needles  
+ 
+ #Iberia
+ VICTORY_POINTS_758:0 "Faro do Burgo"
+ VICTORY_POINTS_9817:0 "Portucale"
