@@ -1,0 +1,47 @@
+spriteTypes = {	
+
+    spriteType = {
+		name = "GFX_idea_vacant_seat"
+		texturefile = "gfx/interface/ministers/generic/vacant_seat.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_minister_european_01"
+		texturefile = "gfx/interface/ministers/generic/european_01.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_02"
+		texturefile = "gfx/interface/ministers/generic/european_02.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_03"
+		texturefile = "gfx/interface/ministers/generic/european_03.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_04"
+		texturefile = "gfx/interface/ministers/generic/european_04.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_05"
+		texturefile = "gfx/interface/ministers/generic/european_05.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_06"
+		texturefile = "gfx/interface/ministers/generic/european_06.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_07"
+		texturefile = "gfx/interface/ministers/generic/european_07.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_08"
+		texturefile = "gfx/interface/ministers/generic/european_08.tga"
+	}
+}

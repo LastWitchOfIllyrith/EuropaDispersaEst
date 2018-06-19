@@ -1,0 +1,168 @@
+ideas = {
+
+    head_of_government = {
+
+		hog_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	foreign_policy_minister = {
+
+		fpm_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	press_secretary = {
+
+		ps_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	minister_of_the_economy = {
+
+		mote_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	minister_of_security = {
+
+		mos_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	chief_of_army = {
+
+		coa_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	chief_of_navy = {
+
+		con_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+	
+	chief_of_airforce = {
+
+		coaf_vacant = {
+
+			picture = vacant_seat
+			
+			allowed = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			traits = { }
+		}
+	}
+
+	head_of_government = {
+
+		hog_europe_generic = {
+
+			picture = minister_european_01
+			
+			allowed = {
+				original_tag = ROM
+			}
+			
+			traits = { popular_figurehead }
+		}
+	}
+}
