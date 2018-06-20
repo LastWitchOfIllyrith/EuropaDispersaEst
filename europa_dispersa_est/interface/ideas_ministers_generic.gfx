@@ -44,4 +44,19 @@ spriteTypes = {
 		name = "GFX_idea_minister_european_08"
 		texturefile = "gfx/interface/ministers/generic/european_08.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_09"
+		texturefile = "gfx/interface/ministers/generic/european_09.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_10"
+		texturefile = "gfx/interface/ministers/generic/european_10.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_minister_european_11"
+		texturefile = "gfx/interface/ministers/generic/european_11.tga"
+	}
 }
