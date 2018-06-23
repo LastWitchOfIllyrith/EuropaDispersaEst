@@ -17,21 +17,29 @@ religion_sunni
 set_politics = {
 
 	parties = {
-		militant_theocracy = {popularity = 0}
-		monarchism = {popularity = 0}
+		militant_theocracy = {popularity = 6}
+		monarchism = {popularity = 11}
 		heavenly_mandate = {popularity = 0}
-		popular_traditionalism = {popularity = 0}
+		popular_traditionalism = {popularity = 38}
 		autonomous_councilism = {popularity = 0}
-		absolute_councilism = {popularity = 100}
-		popular_councilism = {popularity = 0}
-		collaborative_councilism = {popularity = 0}
-		orthodox_mazdakist = {popularity = 0}
-		vanguardist_mazdakist = {popularity = 0}
-		popular_mazdakist = {popularity = 0}
+		absolute_councilism = {popularity = 8}
+		popular_councilism = {popularity = 20}
+		collaborative_councilism = {popularity = 12}
+		orthodox_mazdakism = {popularity = 5}
+		vanguardist_mazdakism = {popularity = 0}
+		popular_mazdakism = {popularity = 0}
 	}
 	
-	ruling_party = absolute_councilism
+	ruling_party = popular_traditionalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "D.N.S.C.S. Mehmed Selim Efendi Hazretleri"
+	desc = "POLITICS_MEHMED_SELIM_V_DESC"
+	picture = "Portrait_Ottomans_Şehzade_Mehmed_Selim.tga"
+	expire = "1965.1.1"
+	ideology = popular_traditionalism_generic
 }

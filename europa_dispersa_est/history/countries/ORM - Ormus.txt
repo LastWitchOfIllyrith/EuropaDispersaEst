@@ -25,9 +25,9 @@ set_politics = {
 		absolute_councilism = {popularity = 20}
 		popular_councilism = {popularity = 17}
 		collaborative_councilism = {popularity = 14}
-		orthodox_mazdakist = {popularity = 4}
-		vanguardist_mazdakist = {popularity = 2}
-		popular_mazdakist = {popularity = 1}
+		orthodox_mazdakism = {popularity = 4}
+		vanguardist_mazdakism = {popularity = 2}
+		popular_mazdakism = {popularity = 1}
 	}
 	
 	ruling_party = monarchism
