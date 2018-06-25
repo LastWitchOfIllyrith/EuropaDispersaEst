@@ -2402,3 +2402,92 @@ ORM = {
 	}
 	callsigns = { }
 }
+
+KRD = {
+	male = {
+	names = { 
+		Adar Agir Ajar Alacan Amanc Amez Aras Araz Ardalan Ardil Armanc Artin Ashty Avan Aylan Aza Azwer Bagok Bahoz Baran Bawer Baz
+		Behre Belend Berfan Berfhat Beroj Bertav Berzan Betin Bextiyar Beyani Bijar Binar Birusk Biryar Bizan Bozan Caki Cebrail Cejndar
+		Cengawer Cinar Cirusk Ciwan Ciwanro Ciya Comerd Cotan Curo Daban Dadwar Dadyar Danyar Draz Dengdar Dijwar Dilnia Dilovan Diyako
+		Dlshad Dozan Egid Elind Espar Ezdinser Feris Ferza Ferzan Gerdun Gostasp Hakar Hawar Helo Heresh Hestiyar Hevraz Hezan Hisyar Hozan
+		Iskendere Jir Jirhat Jiyan Joro Kamran Kani Karda Kardan Kardox Karez Karwan Karza Karazan Kawa Kawan Kesko Keyan Kiyan Kohda Laser
+		Lawin Lezgin Mereto Merxas Mezin Mihemed Mir Miran Navda Navdar Neberd Nebez Necirvan Olan Payman Pola Raha Rand Razhan Rebin Rebwar Rewi
+		Rewing Rohat Roj Rojan Rojhat Sahine Samrend Sarbast Sarmad Serbaz Serbest Serdar Sermend Serwan Sevder Sevged Seywan Shaho Shakhawan Sharo
+		Shecar Sidar Sirwan Siwan Siyar Soran Taufiq Tawus Tekan Terlan Tirej Tori Xalid Xaniar Xelad Yadgar Yekan Zana Zorav
+		  }
+	}
+	female = {
+		names = { 
+		}
+	}
+	surnames = { 
+		Adar Agir Ajar Alacan Amanc Amez Aras Araz Ardalan Ardil Armanc Artin Ashty Avan Aylan Aza Azwer Bagok Bahoz Baran Bawer Baz
+		Behre Belend Berfan Berfhat Beroj Bertav Berzan Betin Bextiyar Beyani Bijar Binar Birusk Biryar Bizan Bozan Caki Cebrail Cejndar
+		Cengawer Cinar Cirusk Ciwan Ciwanro Ciya Comerd Cotan Curo Daban Dadwar Dadyar Danyar Draz Dengdar Dijwar Dilnia Dilovan Diyako
+		Dlshad Dozan Egid Elind Espar Ezdinser Feris Ferza Ferzan Gerdun Gostasp Hakar Hawar Helo Heresh Hestiyar Hevraz Hezan Hisyar Hozan
+		Iskendere Jir Jirhat Jiyan Joro Kamran Kani Karda Kardan Kardox Karez Karwan Karza Karazan Kawa Kawan Kesko Keyan Kiyan Kohda Laser
+		Lawin Lezgin Mereto Merxas Mezin Mihemed Mir Miran Navda Navdar Neberd Nebez Necirvan Olan Payman Pola Raha Rand Razhan Rebin Rebwar Rewi
+		Rewing Rohat Roj Rojan Rojhat Sahine Samrend Sarbast Sarmad Serbaz Serbest Serdar Sermend Serwan Sevder Sevged Seywan Shaho Shakhawan Sharo
+		Shecar Sidar Sirwan Siwan Siyar Soran Taufiq Tawus Tekan Terlan Tirej Tori Xalid Xaniar Xelad Yadgar Yekan Zana Zorav
+	}
+	callsigns = { }
+}
+
+OTT = {
+	male = {
+	names = { 
+		Abbas Abdullah Ahmed Ali Aslihan Avranos Bekir Butrus Davud Dilman Dimitri Dogan Musa Emir Etci Evhad Halil Hamid Hamza Fâkih
+        Hasan Heyreddin Hizir Hoskadem Husein Husnü Ibrahim Ilyas Isa Iskender Ismail Istani Kadri Karaca Kasim Kemal Kepçi Kilavuz
+        Kismet Kökcü Kutbeddin Mehmed Mehmi Mercan Muharrem Murad Mustafa Mürsel Nasuh Nebi Ramazan Salih Sinan Sirmerd Suleiman
+        Sunduk Sunüllah Timurhan Yagci Yahsi Yazid Yunus Yusuf Demurcu Estefanos Estani Kosta Mihail Nikola Teragani Todori Yani Yorgi
+		Avraham Sinan Andreyus Kokuzoglu Lazari Solak
+		  }
+	}
+	female = {
+		names = { 
+		}
+	}
+	surnames = { 
+		Abbas Abdullah Ahmed Ali Aslihan Avranos Bekir Butrus Davud Dilman Dimitri Dogan Musa Emir Etci Evhad Halil Hamid Hamza Fâkih
+        Hasan Heyreddin Hizir Hoskadem Husein Husnü Ibrahim Ilyas Isa Iskender Ismail Istani Kadri Karaca Kasim Kemal Kepçi Kilavuz
+        Kismet Kökcü Kutbeddin Mehmed Mehmi Mercan Muharrem Murad Mustafa Mürsel Nasuh Nebi Ramazan Salih Sinan Sirmerd Suleiman
+        Sunduk Sunüllah Timurhan Yagci Yahsi Yazid Yunus Yusuf Demurcu Estefanos Estani Kosta Mihail Nikola Teragani Todori Yani Yorgi
+		Avraham Sinan Andreyus Kokuzoglu Lazari Solak
+	}
+	callsigns = { }
+}
+
+PER = {
+	male = {
+	names = { 
+		Ali Sam Adel Amin Amir Aref Aria Arya Azad Azar Aziz Dana Dara Hadi Iman Kian Mani Mehr Musa Nima Omid Reza Saam Shir Abbas Aghil
+		Ahmad Akbar Arash Arman Babak Baraz Davud Ehsan Erfan Farid Firoz Firuz Hamed Hamid Hasan Jahan Jalal Jalil Javed Karim Kaveh Mahdi
+		Mas'ud Mehdi Mirza Navid Payam Piruz Sadeq Seyed Vahid Yahya Yaser Yasin Yusef Zahir Zubin Alborz Bahman Bahram Behnam Behruz Danyal
+		Esmail Firouz Gholam Golzar Hashem Hassan Heydar Kambiz Khwaja Kurosh Mahmud Masood Masoud Mehrab Naveed Parviz Parwiz Pedram Pirooz
+		Pirouz Rahman Roshan Rostam Sardar Seyyed Shahin Shapur Sharif Soheil Sohrab Yasser Yousef Zhubin Arastoo Bahadur Behrooz Behrouz Dariush
+		Daryush Delshad Dilshad Ebrahim Farookh Firdaus Golshan Hossein Jamshed Jamshid Kourosh Mahmoud Massoud Mehrdad Parvaiz Shaheen Shahnaz
+		Shahzad Siavash Siavush Soroush Abdollah Abolfazl Ardashir Ardeshir Eskandar Faridoon Jahangir Jamsheed Khodadad Khorshid Khurshid Kianoush 
+		Mohammad Shahriar Shahrokh Zartosht Ziaeddin Fereydoon Fereydoun Shahriyar Zorav Bahoz Dengdar Kamran Ardalan Shakhawan Kohda Rewing Hawar
+		Heresh Berfhat Adar Anar Elnur Mahammad Ilkin Zaur Ülvi Arslan Azat Eziz Mergen Nazar Röwşen Süleýman Ýusup Chaakar Delaawar Allayaar Gishshar
+		Alisher Farrukh Islom Makhmud Ruslan Rustam Timur Umid Adilet Aibek Aybek Jyrgal Ruslan Sukhrab Taalay Zhyrgal Aashna Abdal Abul Afrasiab Amiergol
+		Ashraf Atal Basoor Bismillah Hamidullah Hask Ishaq Jhamir Kaki Kamran Khyber Laro Lotfullah Malang Noorzai Obaidullah Palay Patson Sak Salar
+		Samandar Shair Shapoor Shino Shpon Surab Tameem Teri Zalmay Zmarai
+		  }
+	}
+	female = {
+		names = { 
+		}
+	}
+	surnames = { 
+		Abdollai Afghanzada Agassi Aghaei Ahmadi Ahmadzadeh Akbar Akbari Alipour Alizade Alizadeh Amin Amini Amir Amiri Anvari Anwari Arabi Ardehi Ashtiani
+		Ayari Ayoubi Ayubi Azam Azizi Bahrami Bakhtiari Boniadi Chamanara Darvish Davoodi Ebadi Emami Eskandari Eslami Esmaeili Farhadi Farzaneh Ganjoo
+		Gharagozlou Ghasemi Ghorbani Habib Habibi Haddad Hassani Heidari Hejazi Heydari Hosseini Hosseinzadeh Hussaini Imani Irani Jafari Jahani Jalali
+		Jamali Jazayeri Kabir Kabiri Kamaliazad Kassem Khansari Khosravi Mahmoudi Malek Mansouri Mehrabi Mirzadeh Mirzaee Mirzaei Mohhamad Mohammadi Mohammadpour
+		Mohammadpourkarkaragh Mohammadzadeh Mokhtari Mokri Moosavi Mortazavi Mostafavi Mousavi Nabizada Nasri Nassiri Nikbin Noori Panahi Parsi Pasdar Pirhadi
+		Quraishi Rahimi Rahmani Ramezani Rashid Raza Rezaei Rezai Riahi Rostamzadeh Rouhani Saba Sadeghi Saeed Saeedi Salehi Salimi Samadi Sardar Sattari Sediqi
+		Shah Shain Shahini Sharif Sheikh Sidiqi Sohrabi Soleimani Soltani Tabatabaei Taheri Tahmasebi Varasteh Yousefi Zadeh Zafar Zahedi Zargari Achakzai Afghan
+		Ahmadzai Akhtar Alakozai Alam Anwarzai Barakzai Durani Farooq Iqbal Kabir Niazai Ardalan Shakhawan Kohda Rewing Hawar Heresh Berfhat Zazai Abaev Akhantov
+		Akhmadiev Babaev Cheryazova Karbonov Sulaymanov Yo'ldoshev Orazow Usenov Ibragimov
+	}
+	callsigns = { }
+}
