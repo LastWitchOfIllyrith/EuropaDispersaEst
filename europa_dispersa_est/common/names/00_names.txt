@@ -2084,8 +2084,321 @@ MOR = {
 		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
 		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
 		Zoheir Zoubir
-	
 	}
 	callsigns = { }
 }
 
+BER = {
+	male = {
+	names = { 
+		Aderfi Adid Aghilas Akli Aksil Amastan Amazigh Ameqqran Ameziane Amokrane Anarouz Anaruz Anir Areski Arezki Arezqi Axil Azmar Azuz Badis Baloua Basil
+		Dahmane Fourou Ghilas Idder Igider Isgaden Izebboudjen Izemrasen Izil Juba Jugurtha Lounes Lounis Makoud Masensen Masinissa Massen Massin Massinissa
+		Hmed Merin Mezian Meziane Mokrane Muhand Muhemmed Muhammad Muhend Munatas Naravas Rezki Saeid Ugwistan Wagguten Warmaksan Yedder Yidir Yugerten Ziri 
+		  }
+	}
+	female = {
+		names = { 
+		}
+	}
+	surnames = { 
+		Ait Aitbrahim Ameziane Bouhouche Dahmani Grigahcine Haliche Halliche Hamadache Izem Jlassi Mazigh Meziane Meziani Mokrani Ouahmed Ouyahia Tamazight Zammit
+		Zaouche Zeghlache Zemmamouche Zerhouni Zouaoi
+	}
+	callsigns = { }
+}
+
+LIB = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+NAA = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+CAS = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+MAS = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+SAY = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+BAG = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+OMA = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
+
+ORM = {
+	male = {
+		names = { 
+			Aali Aamir Abbas Abdul-Aziz Abdul-Hamid Abdul-Kader Abdul-Karim Abd-Allah Abdul-Latif Abdul-Malik Abdul-Qadir
+			Abdul-Rahman Abdul-Rashid Abdul-Wali Abu Abul-Fazl Adam Adil Adnan Afif Afzal Ahman Ahmed Aiman Akram Ala Al-Amir 
+			Ali Alim Amani Amir Amjad Ammar Anas Anis Anwar Anwer Aqil Arif As'ad Asad Ashfaq Asif Ata Atallah Atif Atuf Azhar
+			Aziz Badr Baha Bahadur Bahij Baqi Bakr Baqir Barak Barakat Basil Basim Basir Basit Bassam Bassem Bilal Binyamin Botros
+			Boulos Brahim Burhan Butrus Dana Daud Dawud Ebrahim Esmail Essa Fadi Fahd Fahim Faiz Fakhri Farag Farah Faraj Farhan Farid 
+			Faris Faruq Fathi Fawzi Fayiz Faysal Fazl Fihr Fikri Firdaus Fouad Fuad Gabir Gabr Gafar Gamal Gamil Gawdat Ghalb Ghassan 
+			Ghufran Ghulam Guda Haamid Habib Habibullah Hadi Hafeez Haidar Haider Hakeem Hakim Halim Hamed Hameed Hamid Hamza Hanif Harith
+			Haroun Harun Hasan Hashim Hasib Hasim Hassan Hatim Hayder Haytham Husain Husayn Ibraheem Ihab Ikram Ilyas Imad Iman Imen Imram
+			Imtiaz Iqbal Irfan Isa Isam Iskandar Ismail Issa Jabbar Jabir Jabir Jafar Jalal Junayd Kader Kamal Kamil Karam Karim Khaled Khaleel
+			Khalid Khaliq Khayrat Khayri Latif Lutfi Mahdi Mahfuz Mahir Mahmood Mahmoud Mahmud Mahomet Majid Makram Malak Malik Mamoun Mamun Mansoor
+			Maqsood Maram Maruf Masoud Mazin Medhat Mihammad Mikha'il Miraj Mirza Mis'id Mohamed Mohammad Mohammed Mostafa Mubin Mufaddal Muhammad
+			Muhsin Mukhtar Mumin Mumtaz Munir Murad Murtada Murtaza Musa Mus'ad Mustafa Mustapha Mut'amid Mu'tasim Naaji Nabil Nadeem Nader Nadir Nagi
+			Nagib Nail Na'im Naji Najib Najm Naqi Naseem Naseer Nasib Nasim Nasir Nasser Nazih Nimat Nishat Nizar Noor Noureddine Nuh Nur Nuruddin Nurul
+			Nurullah Omar Omran Osama Qadir Qamar Qasim Qusay Rabi Ra'd Rafiq Rahat Raheem Rahim Rahman Rais Rajab Ramadan Rashad Rashed Rashid Rasul Rayyan
+			Raza Riad Rida Ridwan Rifat Ruh Sa'd Saddam Sa'di Sadiq Safi Sa'id Saif Saiful Saifullah Sajjad Sakhr Salah Saleem Saleh Salil Salim Shad Shadi
+			Shafaqat Shahid Shahnaz Shakeel Shakir Shakur Shamil Shamsuddin Shariah Sherif Shihab Suhail Sulaiman Sulayman Tabassum Taha Tahir Tahmid Taj
+			Talaat Tal'at Tamid Tarik Tariq Tawfiq Tayeb Tayyib Thamir Toufik Tufayl Umar Usama Usman Uthman Wadud Wafai Wafi Waheed Wahid Walid Wasi Wasim
+			Yahya Yakub Yaqoob Yaser Yasin Yasir Yasser Youcef Yousef Yousef Yuhanna Yunus Yusef Yushua Yusuf Zaahir Zafar Zaher Zahi Zahid Zaid Zain Zakaria
+			Zaki Zaman Zawar Zayd Zayn Zia Ziad Ziauddin Ziya Ziyad Zulfaqar
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Abdellaoui Adlani Alami Alaoui Alali Amari Amidane Amine Ammari Amrani Azizi Bekhti Belgasem Belhadi Belhadj Ben Benaissa Benali Benaouf 
+		Benanni Bey Bouchaib Chergui Cherif Dhaouadi Djabou Djazairi Dridi Hachimi Hadia Hadj Hammoudi Hamzaoui Hanae Hannachi Ibrahimi Idrissi Jamali
+		Jaouadi Jaouhari Jlassi Kasmi Kenza Kissami Laayouni Labidi Lahlou Lamari Lazrak Mahrez Mansouri Meziani Mimoun Mohammedi Ouazzani Ouertani Oueslati
+		Rahmani Ramdani Saadaoui Saharoui Saidi Salhi Samadi Seddik Shakshuki Shaladi Shebani Soltani Touati Touzani Yahyaoui Yalaoui Youcefi Zidane Zitouni
+		Zoheir Zoubir
+	}
+	callsigns = { }
+}
