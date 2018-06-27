@@ -1,0 +1,409 @@
+focus_tree = {
+	id = Tawantinsuyu
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QUS
+		}
+	}
+	default = no
+	focus = {
+		id = QUS_AmaSuwaAmaLlullaAmaQuella
+		icon = GFX_focus_inti
+		cost = 1.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = QUS_Word_of_the_Council
+		icon = GFX_goal_generic_demand_territory
+		cost = 2.00
+		prerequisite = {
+			focus = QUS_AmaSuwaAmaLlullaAmaQuella
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = QUS_Gathering_of_the_Toqrikoq
+		icon = GFX_goal_demand_sudetenland
+		cost = 3.00
+		prerequisite = {
+			focus = QUS_Word_of_the_Council
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = QUS_Wamani_Reform
+		icon = GFX_goal_generic_position_armies
+		cost = 4.50
+		prerequisite = {
+			focus = QUS_Gathering_of_the_Toqrikoq
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = QUS_Another_Great_Feast
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 2.00
+		prerequisite = {
+			focus = QUS_Wamani_Reform
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = QUS_Propose_a_Full_Market
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 1.00
+		prerequisite = {
+			focus = QUS_Another_Great_Feast
+		}
+		mutually_exclusive = {
+			focus = QUS_Divine_Efficiency
+			focus = QUS_Invite_Persian_Advisors
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = QUS_Trade_in_the_Antisuyu
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 6.00
+		prerequisite = {
+			focus = QUS_Propose_a_Full_Market
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = QUS_Transatlantic_Trade
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Trade_in_the_Antisuyu
+		}
+		mutually_exclusive = {
+			focus = QUS_Stand_With_Mali
+		}
+		x = 0
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Stand_With_Mali
+		icon = GFX_goal_generic_military_deal
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Trade_in_the_Antisuyu
+		}
+		mutually_exclusive = {
+			focus = QUS_Transatlantic_Trade
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Power_to_the_Apus
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = QUS_Trade_in_the_Antisuyu
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Introduce_Common_Taxes
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = QUS_Power_to_the_Apus
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = QUS_A_Smaller_Bureaucracy
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Introduce_Common_Taxes
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = QUS_Divine_Efficiency
+		icon = GFX_goal_generic_defence
+		cost = 1.00
+		prerequisite = {
+			focus = QUS_Another_Great_Feast
+		}
+		mutually_exclusive = {
+			focus = QUS_Propose_a_Full_Market
+			focus = QUS_Invite_Persian_Advisors
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = QUS_Enforce_Quechua
+		icon = GFX_goal_generic_alliance
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Divine_Efficiency
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = QUS_Centralized_Education
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 6.00
+		prerequisite = {
+			focus = QUS_Enforce_Quechua
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Reformed_Labour
+		icon = GFX_goal_generic_military_sphere
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Centralized_Education
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = QUS_Inti_Supremacy
+		icon = GFX_goal_generic_CAS
+		cost = 6.00
+		prerequisite = {
+			focus = QUS_Reformed_Labour
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = QUS_The_Llapasuyu_Idea
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 6.00
+		prerequisite = {
+			focus = QUS_Inti_Supremacy
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = QUS_Unity
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = QUS_The_Llapasuyu_Idea
+		}
+		x = 6
+		y = 11
+
+	}
+	focus = {
+		id = QUS_The_Tokoyrikoq
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = QUS_AmaSuwaAmaLlullaAmaQuella
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = QUS_Invite_Persian_Advisors
+		icon = GFX_goal_generic_major_alliance
+		cost = 1.00
+		prerequisite = {
+			focus = QUS_Another_Great_Feast
+		}
+		mutually_exclusive = {
+			focus = QUS_Divine_Efficiency
+			focus = QUS_Propose_a_Full_Market
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = QUS_Reform_the_Cult_of_Inti
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Invite_Persian_Advisors
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = QUS_Introduce_Local_Bureaucracy
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Reform_the_Cult_of_Inti
+		}
+		mutually_exclusive = {
+			focus = QUS_All_Roads_Lead_to_Qusqu
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Decentralize_the_Means_of_Production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0.00
+		prerequisite = {
+			focus = QUS_Introduce_Local_Bureaucracy
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = QUS_Abolish_the_Mita
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 7.00
+		prerequisite = {
+			focus = QUS_Decentralize_the_Means_of_Production
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = QUS_Equity_in_the_Suyus
+		icon = GFX_goal_generic_demand_territory
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Abolish_the_Mita
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = QUS_The_Apukuna
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = QUS_AmaSuwaAmaLlullaAmaQuella
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = QUS_All_Roads_Lead_to_Qusqu
+		icon = GFX_goal_generic_construct_civilian
+		cost = 8.00
+		prerequisite = {
+			focus = QUS_Reform_the_Cult_of_Inti
+		}
+		mutually_exclusive = {
+			focus = QUS_Introduce_Local_Bureaucracy
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = QUS_Reform_the_Mita
+		icon = GFX_goal_generic_build_tank
+		cost = 7.00
+		prerequisite = {
+			focus = QUS_All_Roads_Lead_to_Qusqu
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = QUS_One_Suyu
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = QUS_Reform_the_Mita
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = QUS_Join_the_International_Congress
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 3.00
+		prerequisite = {
+			focus = QUS_Equity_in_the_Suyus
+			focus = QUS_One_Suyu
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = QUS_Ban_Cranial_Deformation
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Equity_in_the_Suyus
+			focus = QUS_One_Suyu
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = QUS_Mama_Killa
+		icon = GFX_goal_generic_propaganda
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Equity_in_the_Suyus
+			focus = QUS_One_Suyu
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = QUS_Mama_Huaca
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = QUS_Mama_Killa
+		}
+		x = 12
+		y = 12
+
+	}
+}
