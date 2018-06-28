@@ -1257,5 +1257,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/religion/inti.dds"
 	}
 	
+	#Inca/Tawantinsuyu
+	
+	SpriteType = { 
+		name = "GFX_focus_inca_councillor"
+		texturefile = "gfx/interface/goals/inca/inca_councillor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_inca"
+		texturefile = "gfx/interface/goals/inca/inca.dds"
+	}
+	
+	#Misc
+	
+	SpriteType = { 
+		name = "GFX_focus_fruity"
+		texturefile = "gfx/interface/goals/misc/fruity.dds"
+	}
 
 }

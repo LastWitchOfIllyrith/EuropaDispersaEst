@@ -8,6 +8,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	
+	continuous_focus_position = { x = 50 y = 1800 }
+	
+	
 	focus = {
 		id = QUS_AmaSuwaAmaLlullaAmaQuella
 		icon = GFX_focus_inti
@@ -18,10 +22,13 @@ focus_tree = {
 	}
 	focus = {
 		id = QUS_Word_of_the_Council
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_inca_councillor
 		cost = 2.00
 		prerequisite = {
 			focus = QUS_AmaSuwaAmaLlullaAmaQuella
+		}
+		completion_reward = {
+			add_political_power = 20
 		}
 		x = 4
 		y = 1
@@ -29,10 +36,13 @@ focus_tree = {
 	}
 	focus = {
 		id = QUS_Gathering_of_the_Toqrikoq
-		icon = GFX_goal_demand_sudetenland
+		icon = GFX_focus_inca
 		cost = 3.00
 		prerequisite = {
 			focus = QUS_Word_of_the_Council
+		}
+		completion_reward = {
+			add_political_power = 20
 		}
 		x = 4
 		y = 2
@@ -41,9 +51,15 @@ focus_tree = {
 	focus = {
 		id = QUS_Wamani_Reform
 		icon = GFX_goal_generic_position_armies
-		cost = 4.50
+		cost = 7.50
 		prerequisite = {
 			focus = QUS_Gathering_of_the_Toqrikoq
+		}
+		completion_reward = {
+			random_list = {
+					50 = { country_event = { id = qus.1 } }
+					50 = { country_event = { id = qus.2 } }
+				}
 		}
 		x = 4
 		y = 3
@@ -51,7 +67,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUS_Another_Great_Feast
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_fruity
 		cost = 2.00
 		prerequisite = {
 			focus = QUS_Wamani_Reform
@@ -282,7 +298,7 @@ focus_tree = {
 	focus = {
 		id = QUS_Decentralize_the_Means_of_Production
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 0.00
+		cost = 8.00
 		prerequisite = {
 			focus = QUS_Introduce_Local_Bureaucracy
 		}

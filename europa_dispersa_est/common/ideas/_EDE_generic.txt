@@ -1295,6 +1295,28 @@ economy = {
 			cancel_if_invalid = no
 		}
 		
+		religion_inti = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			picture = GFX_religion_inti
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
 		religion_animist_minor = {
 						
 			cost = 150

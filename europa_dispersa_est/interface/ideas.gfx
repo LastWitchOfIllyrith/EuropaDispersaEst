@@ -3711,6 +3711,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_religion_inti"
+		texturefile = "gfx/interface/ideas/religion_inti.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_religion_animist_minor"
 		texturefile = "gfx/interface/ideas/religion_animist_minor.dds"
 	}

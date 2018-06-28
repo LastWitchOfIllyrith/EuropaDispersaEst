@@ -1,0 +1,92 @@
+﻿
+#### Events for Qusqu/Inca by LastWitchOfIllyrith ####
+
+add_namespace = qus
+
+#### Wamani Reform ####
+
+country_event = { # Wamani Reform Successful
+	id = qus.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event qus.1"}
+	title = qus.1.t
+	desc = qus.1.d
+	picture = GFX_report_event
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {	days = 3 }
+
+	option = {# Great!
+		name = qus.1.a
+		add_political_power = -50
+		add_stability = 0.1
+		set_country_flag = wamani_reform_successful
+		CSY = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	
+	ASY = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	
+	KSY = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	
+	QSY = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	}
+}
+
+country_event = { # Wamani Reform Fucked Up
+	id = qus.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event qus.2"}
+	title = qus.2.t
+	desc = qus.2.d
+	picture = GFX_report_event
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {	days = 3 }
+
+	option = {# Great!
+		name = qus.2.a
+		add_political_power = -150
+		add_stability = -0.1
+		set_country_flag = wamani_reform_failed
+	}
+}
+
+
+
+

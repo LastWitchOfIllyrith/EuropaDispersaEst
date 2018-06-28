@@ -6,6 +6,9 @@ ideologies = {
 			
 			heavenly_mandate_generic = {
 			}
+			
+			sapa_inka = {
+			}
 		}
 		
 		dynamic_faction_names = {
