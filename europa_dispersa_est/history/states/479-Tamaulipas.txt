@@ -2,17 +2,15 @@
 state={
 	id=479
 	name="STATE_479"
-	manpower = 1032988
-	
-	state_category = town
 
 	history={
-		owner = AZT
+		owner = TLA
+		add_core_of = TLA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
-		add_core_of = AZT
 		victory_points = {
 			4956 1 
 		}
@@ -20,7 +18,9 @@ state={
 	}
 
 	provinces={
-		1952 2083 4956 5015 5021 12721 13088 
+		2060 5015 5021 8079 10732 10769 12810 12811 13088 
 	}
-	
+	manpower=1032988
+	buildings_max_level_factor=1.000
+	state_category=town
 }

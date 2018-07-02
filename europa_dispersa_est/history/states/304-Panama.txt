@@ -1,33 +1,32 @@
-state=
-{
-	id=314
-	name="STATE_314"
-	manpower = 1437611
+
+state={
+	id=304
+	name="STATE_304"
+	manpower = 467459
 	resources={
-		chromium=1 # was: 1
+		oil=1 # was: 1
 	}
 	
 	state_category = town
 	
-	history=
-	{
-		owner = KCM
-		add_core_of = KCM
+	history={
+		owner = SKO
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1
-			12823 = {
-				naval_base = 1
+			7630 = {
+				naval_base = 4
 			}
 		}
 		victory_points = {
-			12823 3
+			7630 5 
 		}
 
 	}
+
 	provinces={
-		12823 13093 
+		1633 4611 4624 7630 10482 
 	}
 }
