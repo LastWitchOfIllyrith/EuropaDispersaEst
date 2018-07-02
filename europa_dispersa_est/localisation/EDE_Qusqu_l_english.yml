@@ -14,6 +14,8 @@
  QUS_Wamani_Reform_desc:0 "At the meeting, numerous important decisions regarding the state of the realm have been made. The Wamani have been redrawn, and whether or not everyone is happy with it is yet to be known."
  QUS_Another_Great_Feast:0 "Hold Another Great Feast"
  QUS_Another_Great_Feast_desc:0 "Regardless of recent events, the Sapa Inka should attempt to keep peace and reciprocate the people's labour obligations by holding a great feast. Maybe something more will come out of it..."
+ QUS_Wamani_Reform_Effect:0 "§YThis may or may not have a positive effect.§"
+ QUS_Propose_a_Full_Market:0 "A Full Market"
  
  #Events
  qus.1.t:0 "Wamani Reform - Success!"
@@ -22,3 +24,9 @@
  qus.2.t:0 "Wamani Reform - Failure!"
  qus.2.d:0 "While the planned wamani reform is to be executed, most Toqrikoq are unhappy with it and are still squabbling over how unjust it is. It seems like the only force pushing it forwards is the council, which, while rather powerful, couldn't work without support of the lower levels of administration. The future is uncertain..."
  qus.2.a:0 "They gave Arika too much land! And what about Shipibo?"
+ qus.3.t:0 "The Feast"
+ qus.3.d:0 "As our empire has grown and modernized, so have it's needs, and this feast has been executed to a greater scale than any other before. Officials and taxpayers from all over the country are more than content with the lavish banquets served in all our cities, great and small. A formal address from the Sapa Inka is approaching - for days he has listened to his closest advisors, and now he has to choose which intentions will he follow and announce."
+ qus.3.a:0 "We must adopt a contemporary economy!"
+ qus.3.b:0 "The Persian model is closer to our current system..."
+ qus.3.c:0 "I am a pillar of our society!"
+ 

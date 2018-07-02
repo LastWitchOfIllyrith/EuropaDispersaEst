@@ -43,3 +43,27 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = sapa_inka
 }
+
+create_country_leader = {
+	name = "Sapa Inka Pascac Paucar"
+	desc = "POLITICS_SAPA_INKA_PASCAC_PAUCAR_DESC"
+	picture = "Portrait_Qusqu_Pascac_Paucar.tga"
+	expire = "1965.1.1"
+	ideology = militant_theocracy_generic
+}
+
+create_country_leader = {
+	name = "Sapa Inka Pascac Paucar"
+	desc = "POLITICS_SAPA_INKA_PASCAC_PAUCAR_DESC"
+	picture = "Portrait_Qusqu_Pascac_Paucar.tga"
+	expire = "1965.1.1"
+	ideology = monarchism_generic
+}
+
+create_country_leader = {
+	name = "Sapa Inka Pascac Paucar"
+	desc = "POLITICS_SAPA_INKA_PASCAC_PAUCAR_DESC"
+	picture = "Portrait_Qusqu_Pascac_Paucar.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_mazdakism_generic
+}

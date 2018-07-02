@@ -56,10 +56,13 @@ focus_tree = {
 			focus = QUS_Gathering_of_the_Toqrikoq
 		}
 		completion_reward = {
+		custom_effect_tooltip = QUS_Wamani_Reform_Effect
+		hidden_effect = {
 			random_list = {
 					50 = { country_event = { id = qus.1 } }
 					50 = { country_event = { id = qus.2 } }
 				}
+			}
 		}
 		x = 4
 		y = 3
@@ -72,6 +75,9 @@ focus_tree = {
 		prerequisite = {
 			focus = QUS_Wamani_Reform
 		}
+		completion_reward = {
+		country_event = { id = qus.3 }
+		}
 		x = 4
 		y = 4
 
@@ -79,14 +85,9 @@ focus_tree = {
 	focus = {
 		id = QUS_Propose_a_Full_Market
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 1.00
-		prerequisite = {
-			focus = QUS_Another_Great_Feast
-		}
-		mutually_exclusive = {
-			focus = QUS_Divine_Efficiency
-			focus = QUS_Invite_Persian_Advisors
-		}
+		cost = 1
+		available = { always = no }
+		bypass = { has_country_flag = QUS_Market }
 		x = 4
 		y = 5
 
@@ -166,14 +167,9 @@ focus_tree = {
 	focus = {
 		id = QUS_Divine_Efficiency
 		icon = GFX_goal_generic_defence
-		cost = 1.00
-		prerequisite = {
-			focus = QUS_Another_Great_Feast
-		}
-		mutually_exclusive = {
-			focus = QUS_Propose_a_Full_Market
-			focus = QUS_Invite_Persian_Advisors
-		}
+		cost = 1
+		available = { always = no }
+		bypass = { has_country_flag = QUS_Divine }
 		x = 6
 		y = 5
 
@@ -258,14 +254,9 @@ focus_tree = {
 	focus = {
 		id = QUS_Invite_Persian_Advisors
 		icon = GFX_goal_generic_major_alliance
-		cost = 1.00
-		prerequisite = {
-			focus = QUS_Another_Great_Feast
-		}
-		mutually_exclusive = {
-			focus = QUS_Divine_Efficiency
-			focus = QUS_Propose_a_Full_Market
-		}
+		cost = 1
+		available = { always = no }
+		bypass = { has_country_flag = QUS_Mazdak }
 		x = 8
 		y = 5
 
