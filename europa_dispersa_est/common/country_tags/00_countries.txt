@@ -135,6 +135,20 @@ BAM = "countries/Bambara.txt"
 WOL = "countries/Wolof.txt"
 TRZ = "countries/Trarza.txt"
 
+#mesoamerican tags
+CAM = "countries/Camatlan.txt"
+COT = "countries/Cotija.txt"
+IHU = "countries/Ihuatzio.txt"
+TLA = "countries/Tlatlauquitepec.txt"
+TEN = "countries/Tenochtitlan.txt"
+OCO = "countries/Ocotelolco.txt"
+YOP = "countries/Yopitzinco.txt"
+KCM = "countries/Kiche-Macatlan.txt"
+CHA = "countries/Chactemal.txt"
+CUP = "countries/Cupul.txt"
+TAI = "countries/Taino.txt"
+CRB = "countries/Carib.txt"
+
 #central, east, south, southeast asia tags
 
 BEN = "countries/Bengal.txt"

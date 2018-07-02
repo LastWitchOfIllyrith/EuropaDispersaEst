@@ -467,3 +467,65 @@ SKO = {
 	color = rgb { 97  94  155 }
 	color_ui = rgb { 97  94  155 }
 }
+
+#### Mesoamerica ####
+
+CAM = {
+	color = rgb { 189  0  38 }
+	color_ui = rgb { 189  0  38 }
+}
+
+COT = {
+	color = rgb { 51  160  44 }
+	color_ui = rgb { 51  160  44 }
+}
+
+IHU = {
+	color = rgb { 254  217  118 }
+	color_ui = rgb { 254  217  118 }
+}
+
+TLA = {
+	color = rgb { 219  172  210 }
+	color_ui = rgb { 219  172  210 }
+}
+
+TEN = {
+	color = rgb { 102  194  164 }
+	color_ui = rgb { 102  194  164 }
+}
+
+OCO = {
+	color = rgb { 254  178  76 }
+	color_ui = rgb { 254  178  76 }
+}
+
+YOP = {
+	color = rgb { 129  15  124 }
+	color_ui = rgb { 129  15  124 }
+}
+
+KCM = {
+	color = rgb { 54  144  192 }
+	color_ui = rgb { 54  144  192 }
+}
+
+CHA = {
+	color = rgb { 190  220  206 }
+	color_ui = rgb { 190  220  206 }
+}
+
+CUP = {
+	color = rgb { 191  129  45 }
+	color_ui = rgb { 191  129  45 }
+}
+
+TAI = {
+	color = rgb { 179  0  0 }
+	color_ui = rgb { 179  0  0 }
+}
+
+CRB = {
+	color = rgb { 136  65  157 }
+	color_ui = rgb { 136  65  157 }
+}
