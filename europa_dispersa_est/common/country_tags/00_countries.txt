@@ -136,7 +136,7 @@ WOL = "countries/Wolof.txt"
 TRZ = "countries/Trarza.txt"
 
 #mesoamerican and carib tags
-CAM = "countries/Camatlan.txt"
+CMT = "countries/Camatlan.txt"
 COT = "countries/Cotija.txt"
 IHU = "countries/Ihuatzio.txt"
 TLA = "countries/Tlatlauquitepec.txt"
