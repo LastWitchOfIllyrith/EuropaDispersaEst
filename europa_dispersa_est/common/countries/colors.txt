@@ -476,8 +476,8 @@ CAM = {
 }
 
 COT = {
-	color = rgb { 51  160  44 }
-	color_ui = rgb { 51  160  44 }
+	color = rgb { 151  200  104 }
+	color_ui = rgb { 151  200  104 }
 }
 
 IHU = {
@@ -496,7 +496,7 @@ TEN = {
 }
 
 OCO = {
-	color = rgb { 254  178  76 }
+	color = rgb { 154  158  76 }
 	color_ui = rgb { 254  178  76 }
 }
 
