@@ -1,0 +1,13 @@
+state={
+	id=850
+	name="STATE_850"
+	history = { 
+		owner = JIA
+		add_core_of JIA
+}
+	provinces={
+		4042 7014 10034 10076 12052 12076 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
