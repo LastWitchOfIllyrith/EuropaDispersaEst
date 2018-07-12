@@ -14,8 +14,20 @@ idea_categories = {
 		removal_cost = -1
 	}
 	
-	government = {
+	national_structure = {
 	    slot = state_religion
+		slot = party_system
+		slot = political_freedom
+		slot = approval_rating
+		slot = internal_faction_1
+		slot = internal_faction_2
+		slot = internal_faction_3
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	government = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
