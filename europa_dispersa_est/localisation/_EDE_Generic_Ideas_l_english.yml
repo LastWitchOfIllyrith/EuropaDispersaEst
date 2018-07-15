@@ -19,3 +19,10 @@ religion_teotlic:0 "Teotlic"
 religion_mayan:0 "Mayan"
 religion_inti:0 "Inti"
 religion_animist_minor:0 "Animist Minor"
+
+#National spirits
+expanded_diplomatic_corps:0 "Expanded Diplomatic Corps"
+academic_recruitment:0 "Academic Recruitment"
+neutral_trading_focus:0 "Neutral Trade Hub"
+military_admin:0 "Improved Military Administration"
+national_action_focus:0 "National Action"

@@ -1341,6 +1341,115 @@ economy = {
 	
 	
 	
+####NATIONAL SPIRITS####
+
+	expanded_diplomatic_corps = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+			
+		picture = GFX_idea_hun_treaty_of_trianon
+		
+		modifier = {
+			opinion_gain_monthly_factor = 0.2
+		}
+	}
 	
+	academic_recruitment = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+		
+		picture = GFX_idea_generic_army_war_college
+		
+		modifier = {
+			political_advisor_cost_factor = -0.25
+			high_command_cost_factor = -0.25
+			army_chief_cost_factor = -0.25
+			navy_chief_cost_factor = -0.25
+			air_chief_cost_factor = -0.25
+		}
+	}
+	
+	neutral_trading_focus = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+		
+		picture = GFX_idea_can_wartime_prices_and_trade_board
+		
+		modifier = {
+			trade_opinion_factor = 0.5
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.10
+				}
+			}
+			consumer_goods_factor = -0.05
+		}
+		
+	}
+	
+	military_admin = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+		
+		picture = GFX_generic_morale_bonus
+		
+		modifier = {
+			army_morale_factor = 0.1
+		}
+	}
+	
+	national_action_focus = {
+			
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+
+		picture = generic_pp_unity_bonus
+	
+		rule = {
+			can_create_factions = yes
+		}
+	
+		modifier = {
+			war_support_factor = 0.05
+			army_core_attack_factor = 0.1
+			army_core_defence_factor = 0.1
+		}
+	}
 	
 }
