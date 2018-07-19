@@ -1,4 +1,4 @@
-capital = 830
+﻿capital = 830
 
 oob = "OTT_1936"
 
@@ -36,6 +36,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+puppet = BOS
+puppet = TEM
+puppet = TRA
+puppet = MOL
+puppet = REY
+	
 create_country_leader = {
 	name = "D.N.S.C.S. Mehmed Selim Efendi Hazretleri"
 	desc = "POLITICS_MEHMED_SELIM_V_DESC"

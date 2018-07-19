@@ -1,0 +1,37 @@
+capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 50
+
+add_ideas = {
+religion_secular
+}
+
+set_politics = {
+
+	parties = {
+		militant_theocracy = {popularity = 3}
+		monarchism = {popularity = 1}
+		heavenly_mandate = {popularity = 1}
+		popular_traditionalism = {popularity = 3}
+		autonomous_councilism = {popularity = 1}
+		absolute_councilism = {popularity = 8}
+		popular_councilism = {popularity = 10}
+		collaborative_councilism = {popularity = 7}
+		orthodox_mazdakism = {popularity = 45}
+		vanguardist_mazdakism = {popularity = 10}
+		popular_mazdakism = {popularity = 11}
+	}
+	
+	ruling_party = orthodox_mazdakism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
