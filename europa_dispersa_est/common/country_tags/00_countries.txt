@@ -154,13 +154,18 @@ CRB = "countries/Carib.txt"
 
 #central, east, south, southeast asia tags
 
+BHU = "countries/Bhutan.txt"
 CHI = "countries/Qing.txt"
 GUC = "countries/Guominjun Clique.txt"
 JIA = "countries/Jiang Clique.txt"
 JPN = "countries/Japan.txt"
 JOS = "countries/Joseon.txt"
+KAM = "countries/Kamchatka.txt"
 KAZ = "countries/Kazakhstan.txt"
+MAN = "countries/Manchuria.txt"
 MON = "countries/Mongolia.txt"
+NEP = "countries/Nepal.txt"
+NMA = "countries/Manchus.txt"
 TIB = "countries/Tibet.txt"
 TUR = "countries/Turkestan.txt"
 UYG = "countries/Uyghuristan.txt"
