@@ -73,11 +73,7 @@ focus_tree = {
 				category = armor
 			}
 			
-			equipment_bonus = {
-				armor = {
-					build_cost_ic = -0.05
-				}
-			}
+			add_ideas = generic_tank_production
 		}
 	}
 	
@@ -124,11 +120,7 @@ focus_tree = {
 				category = artillery
 			}
 			
-			equipment_bonus = {
-				artillery = {
-					build_cost_ic = -0.05
-				}
-			}
+			add_ideas = generic_artillery_production
 		}
 	}
 	
@@ -175,11 +167,7 @@ focus_tree = {
 				category = support_tech
 			}
 			
-			equipment_bonus = {
-				support = {
-					build_cost_ic = -0.05
-				}
-			}
+			add_ideas = generic_support_production
 		}
 	}
 	
@@ -226,11 +214,7 @@ focus_tree = {
 				category = infantry_weapons
 			}
 			
-			equipment_bonus = {
-				infantry = {
-					build_cost_ic = -0.05
-				}
-			}
+			add_ideas = generic_guns_production
 		}
 	}
 	
