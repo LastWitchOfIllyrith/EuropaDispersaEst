@@ -1,0 +1,908 @@
+focus_tree = {
+	id = EDE_ottomanFocus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OTT
+		}
+	}
+	default = no
+	focus = {
+		id = OTTquestionsOfOurDay
+		icon = GFX_goal_generic_improve_relations
+		cost = 1.00
+		x = 8
+		y = 1
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = OTTourEconomy
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		x = 27
+		y = 1
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = OTTwarWillCome
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		completion_reward = { add_stability = .3 add_war_support = .2 add_manpower = 15000 add_political_power = 100}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = OTTforeignPolicy
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = OTTenverPasha
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 5.00
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = OTTtheRealm
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = OTTquestionsOfOurDay
+		}
+		x = -6
+		y = 1
+		relative_position_id = OTTquestionsOfOurDay
+			completion_reward = {
+					country_event = {
+							id = eventid
+						}
+				}
+
+	}
+	focus = {
+		id = OTTtheSultan
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5.00
+		prerequisite = {
+			focus = OTTquestionsOfOurDay
+		}
+		x = -3
+		y = 1
+		relative_position_id = OTTquestionsOfOurDay
+			completion_reward = {
+					country_event = {
+							id = eventid
+						}
+				}
+
+	}
+	focus = {
+		id = OTTeuropeanBorders
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheRealm
+		}
+		prerequisite = {
+			focus = OTTtheSultan
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = OTTtheVilayets
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheSultan
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = OTTsultanSuccessor
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheVilayets
+		}
+		x = 5
+		y = 6
+			completion_reward = {
+					country_event = {
+							id = eventid
+						}
+				}
+
+	}
+	focus = {
+		id = OTTnihad
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTsultanSuccessor
+		}
+		mutually_exclusive = {
+			focus = OTTfuad
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = OTTfuad
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTsultanSuccessor
+		}
+		mutually_exclusive = {
+			focus = OTTvasib
+			focus = OTTnihad
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = OTTtheWealth
+		icon = GFX_focus_hun_elect_a_king
+		cost = 5.00
+		prerequisite = {
+			focus = OTTquestionsOfOurDay
+		}
+		x = 9
+		y = 2
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OTTroyalTreasury
+		icon = GFX_focus_hun_elect_a_king
+		cost = 5.00
+		prerequisite = {
+			focus = OTTtheWealth
+		}
+		prerequisite = {
+			focus = OTTtheSultan
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = OTTnewTaxation
+		icon = GFX_goal_generic_consumer_goods
+		cost = 2.00
+		prerequisite = {
+			focus = OTTroyalTreasury
+		}
+		x = 7
+		y = 5
+			completion_reward = {
+					country_event = {
+							id = eventid
+						}
+				}
+
+	}
+	focus = {
+		id = OTTvasib
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTsultanSuccessor
+		}
+		mutually_exclusive = {
+			focus = OTTfuad
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = OTTnewIndustrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = OTTroyalTreasury
+		}
+		x = 9
+		y = 4
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = OTTtheKurds
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = OTTquestionsOfOurDay
+		}
+		x = 12
+		y = 2
+			completion_reward = {
+					country_event = {
+							id = OTT_0
+						}
+				}
+
+	}
+	focus = {
+		id = OTTmarchIntoKurdistan
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheKurds
+		}
+		mutually_exclusive = {
+			focus = OTThardKurdBorder
+		}
+		x = 13
+		y = 3
+			completion_reward = {
+					create_wargoal = {
+							type = take_state_focus#Ottomans take Van, other Turkish residing areas in Kurdistan
+							target = KRD
+							generator = { 28 }
+						}
+				}
+
+	}
+	focus = {
+		id = OTTrecruitmentCampaign
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = OTTwarWillCome
+		}
+		completion_reward = { add_manpower = 50000 }
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = OTTmenFromTheVilayets
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 5.00
+		prerequisite = {
+			focus = OTTrecruitmentCampaign
+		}
+		completion_reward = { add_manpower = 75000}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = OTTmilitaryResearch
+		icon = GFX_focus_research
+		cost = 5.00
+		prerequisite = {
+			focus = OTTmenFromTheVilayets
+		}
+			completion_reward = { add_research_slot = 1 }
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = OTTrampUpSpending
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTmilitaryResearch
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = OTThardKurdBorder
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheKurds
+		}
+		mutually_exclusive = {
+			focus = OTTmarchIntoKurdistan
+			focus = OTTrecognizeKurdistan
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = OTTrecognizeKurdistan
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = OTTtheKurds
+		}
+		mutually_exclusive = {
+			focus = OTThardKurdBorder
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = OTTprepareProduction
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = OTTwarWillCome
+		}
+					completion_reward = {
+					840 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 5
+									instant_build = yes
+								}
+						}
+				}
+
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = OTTbulgarianMilitaryComplex
+		icon = GFX_focus_chi_army_reform
+		cost = 5.00
+		prerequisite = {
+			focus = OTTprepareProduction
+		}
+					completion_reward = {
+					48 = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = arms_factory
+									level = 7
+									instant_build = yes
+								}
+						}
+				}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = nihadsMassCombat
+		icon = GFX_goal_generic_military_deal
+		cost = 5.00
+		prerequisite = {
+			focus = OTTbulgarianMilitaryComplex
+		}
+		mutually_exclusive = {
+			focus = OTTfuadsSuperiorFirepower
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = OTTfuadsSuperiorFirepower
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5.00
+		prerequisite = {
+			focus = OTTbulgarianMilitaryComplex
+		}
+		mutually_exclusive = {
+			focus = OTTvasibsGrandBattleplans
+			focus = nihadsMassCombat
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = OTTvasibsGrandBattleplans
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5.00
+		prerequisite = {
+			focus = OTTbulgarianMilitaryComplex
+		}
+		mutually_exclusive = {
+			focus = OTTfuadsSuperiorFirepower
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = OTTnewJannisaries
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = OTTvasibsGrandBattleplans
+			focus = OTTfuadsSuperiorFirepower
+			focus = nihadsMassCombat
+			focus = OTTrampUpSpending
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = OTTprojectKaçınılmaz
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = OTTnewJannisaries
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = OTTnihadsPlan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTourEconomy
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = OTTsupportIndustry
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = OTTnihadsPlan
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = OTTvilayetConstruction
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5.00
+		prerequisite = {
+			focus = OTTsupportIndustry
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = OTTrailroad
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = OTTvilayetConstruction
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = OTTexpandChromium
+		icon = GFX_focus_generic_industry_1
+		cost = 5.00
+		prerequisite = {
+			focus = OTTrailroad
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = OTTfuadsPlan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTourEconomy
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = OTTreduceRegulations
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTfuadsPlan
+			focus = OTTnihadsPlan
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = OTTindustrySubsidies
+		icon = GFX_focus_generic_industry_3
+		cost = 5.00
+		prerequisite = {
+			focus = OTTreduceRegulations
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = OTTankaraStockExchange
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = OTTindustrySubsidies
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = OTTexpandMilitaryIndustry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = OTTankaraStockExchange
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = OTTgeorgianQuestion
+		icon = GFX_goal_generic_military_sphere
+		cost = 5.00
+		prerequisite = {
+			focus = OTTforeignPolicy
+		}
+		x = 27
+		y = 10
+
+	}
+	focus = {
+		id = OTTarmeniaForOil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 5.00
+		prerequisite = {
+			focus = OTTgeorgianQuestion
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = OTTconquerGeorgia
+		icon = GFX_focus_generic_tank_production
+		cost = 5.00
+		prerequisite = {
+			focus = OTTgeorgianQuestion
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = OTTvasibsPlan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTourEconomy
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = OTTexpandWelfare
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTfuadsPlan
+			focus = OTTvasibsPlan
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = OTTprepareForTheWorst
+		icon = GFX_goal_generic_attack_allies
+		cost = 5.00
+		prerequisite = {
+			focus = OTTexpandWelfare
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = OTTsocialSecurity
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = OTTprepareForTheWorst
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = OTTexpandCivilianWorkforce
+		icon = GFX_goal_tripartite_pact
+		cost = 5.00
+		prerequisite = {
+			focus = OTTsocialSecurity
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = OTTeconomicAid
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = OTTgeorgianQuestion
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = OTTgunsToChina
+		icon = GFX_focus_chi_one_china_policy
+		cost = 5.00
+		prerequisite = {
+			focus = OTTforeignPolicy
+		}
+		x = 31
+		y = 10
+
+	}
+	focus = {
+		id = OTTassistMoroccans
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5.00
+		prerequisite = {
+			focus = OTTforeignPolicy
+		}
+		x = 31
+		y = 13
+
+	}
+	focus = {
+		id = OTTnationalization
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTvasibsPlan
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = OTTsupportTradeUnions
+		icon = GFX_goal_continuous_increase_nu
+		cost = 5.00
+		prerequisite = {
+			focus = OTTnationalization
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = OTTlabourLaws
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 5.00
+		prerequisite = {
+			focus = OTTsupportTradeUnions
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = OTTtighterRegulations
+		icon = GFX_goal_continuous_repairments
+		cost = 5.00
+		prerequisite = {
+			focus = OTTlabourLaws
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = OTTarmsToIndia
+		icon = GFX_focus_RAJ_indianisation_of_army
+		cost = 5.00
+		prerequisite = {
+			focus = OTTforeignPolicy
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = OTTdeposeTheHouseOfOsman
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		prerequisite = {
+			focus = OTTenverPasha
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = OTTturanism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = OTTdeposeTheHouseOfOsman
+		}
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = OTTmoravia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTturanism
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = OTTperm
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTmoravia
+		}
+		x = 36
+		y = 9
+
+	}
+	focus = {
+		id = OTTgalicia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTmoravia
+		}
+		x = 38
+		y = 9
+
+	}
+	focus = {
+		id = OTTlithuania
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTmoravia
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = OTTfinland
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTmoravia
+		}
+		x = 42
+		y = 9
+
+	}
+	focus = {
+		id = OTTturkestan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTlithuania
+			focus = OTTfinland
+		}
+		prerequisite = {
+			focus = OTTlithuania
+		}
+		prerequisite = {
+			focus = OTTfinland
+		}
+		prerequisite = {
+			focus = OTTperm
+		}
+		prerequisite = {
+			focus = OTTgalicia
+		}
+		x = 38
+		y = 10
+
+	}
+	focus = {
+		id = OTTmongolia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTturkestan
+		}
+		x = 38
+		y = 11
+
+	}
+	focus = {
+		id = OTTintegrateVilayets
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = OTTdeposeTheHouseOfOsman
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = OTTottomanElites
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = OTTnewJannisaries
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = OTTstrikeAtPersia
+		icon = GFX_focus_ger_great_red_menace
+		cost = 10.00
+		prerequisite = {
+			focus = OTTprojectKaçınılmaz
+		}
+		prerequisite = {
+			focus = OTTottomanElites
+		}
+		x = 17
+		y = 14
+
+	}
+}
