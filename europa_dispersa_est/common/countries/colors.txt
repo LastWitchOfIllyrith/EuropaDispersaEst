@@ -172,7 +172,7 @@ TRZ = {
 	color_ui = rgb { 222  183  131 }
 }
 
-#### MENA ####
+#### MENA + Caucasus ####
 
 MOR = {
 	color = rgb { 193  19  45 }
@@ -194,6 +194,10 @@ NAA = {
 	color_ui = rgb { 47  96  155 }
 }
 
+KHZ = { 
+	color = rgb {137 207 240}
+	color_ui = rgb {137 207 240}
+}
 
 #### North America ####
 
@@ -466,6 +470,14 @@ CEL = {
 SKO = {
 	color = rgb { 97  94  155 }
 	color_ui = rgb { 97  94  155 }
+}
+DEN = { 
+	color = rgb {198  12  48}
+	color_ui = rgb {198 12 48}
+}
+SAP = {
+	color = rgb {255 255 240}
+	color_ui = {255 255 240}
 }
 
 #### Mesoamerica ####
