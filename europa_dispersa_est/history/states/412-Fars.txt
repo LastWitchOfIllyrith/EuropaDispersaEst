@@ -1,7 +1,7 @@
 
 state={
 	id=412
-	name="STATE_412"
+	name="Fars"
 	resources={
 		oil=10.000
 	}
@@ -33,7 +33,7 @@ state={
 	provinces={
 		4966 8117 10797 10881 12780 12832 12863 
 	}
-	manpower=918619
+	manpower=1264303
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
