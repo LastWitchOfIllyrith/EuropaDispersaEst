@@ -1,6 +1,6 @@
 state={
 	id=830
-	name="STATE_830"
+	name="Kostantiniyye"
 		history = {
 		add_core_of = OTT
 		owner = OTT
@@ -8,6 +8,11 @@ state={
 	provinces={
 		9833 11829 
 	}
+		victory_points = {
+			9833 50 
+				}
 	manpower=14800000
 	buildings_max_level_factor=1.2
+	state_category=megalopolis
 }
+

@@ -1,6 +1,9 @@
 state={
 	id=822
-	name="STATE_822"
+	name="Ormus"
+	resources = {
+	oil = 160
+	}
 	history = {
 		owner = ORM
 		add_core_of = ORM
@@ -8,6 +11,7 @@ state={
 	provinces={
 		1889 4959 7982 
 	}
-	manpower=0
+	manpower=3200000
+	state_category = city
 	buildings_max_level_factor=1.000
 }

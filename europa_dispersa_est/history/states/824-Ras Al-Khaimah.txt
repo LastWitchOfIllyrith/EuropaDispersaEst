@@ -1,8 +1,10 @@
 
 state={
 	id=824
-	name="STATE_824"
-
+	name="Ras Al-Khaimah"
+	resources = {
+		oil = 76
+		}
 	history={
 		owner = ORM
 		add_core_of = ORM
@@ -12,6 +14,7 @@ state={
 	provinces={
 		10904 
 	}
-	manpower=0
+	manpower=976000
+	state_category = megalopolis
 	buildings_max_level_factor=1.000
 }

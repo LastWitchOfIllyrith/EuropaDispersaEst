@@ -1,6 +1,6 @@
 state={
 	id=819
-	name="STATE_819"
+	name="Ma'an"
 	history = {
 		owner = MAS
 		add_core_of = MAS
@@ -8,6 +8,7 @@ state={
 	provinces={
 		4562 4603 11976 
 	}
-	manpower=0
+	manpower=45000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

@@ -1,6 +1,6 @@
 state={
 	id=831
-	name="STATE_831"
+	name="Jeddah"
 		history = {
 			owner = SAY
 			add_core_of = SAY
@@ -8,6 +8,7 @@ state={
 	provinces={
 		2033 2090 4981 10748 12883 
 	}
-	manpower=0
+	manpower=800000
+	state_category=city
 	buildings_max_level_factor=1.000
 }

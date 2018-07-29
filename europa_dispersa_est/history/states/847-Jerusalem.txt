@@ -1,11 +1,12 @@
 state={
 	id=847
-	name="STATE_847"
+	name="Al Quds"
 	provinces={
 		1086 
 	}
-	manpower=0
+	manpower=586200
 	buildings_max_level_factor=1.000
+	state_category=city
 history = {
 	owner = MAS
 	add_core_of = MAS

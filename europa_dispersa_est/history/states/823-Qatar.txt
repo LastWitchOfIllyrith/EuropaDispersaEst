@@ -1,17 +1,21 @@
 
 state={
 	id=823
-	name="STATE_823"
+	name="Qatar"
 
 	history={
 		owner = ORM
 		add_core_of = ORM
 
 	}
+		resources = {
+		oil = 240
+		}
 
 	provinces={
 		8051 
 	}
 	manpower=0
+	state_category=city
 	buildings_max_level_factor=1.000
 }

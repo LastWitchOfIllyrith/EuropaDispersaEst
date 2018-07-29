@@ -1,6 +1,6 @@
 state={
 	id=826
-	name="STATE_826"
+	name="Al Hasakah"
 	history={
 		owner = KRD
 		add_core_of = KRD
@@ -8,6 +8,7 @@ state={
 	provinces={
 		901 1549 1578 10882 
 	}
-	manpower=0
+	manpower=137000
 	buildings_max_level_factor=1.000
+	state_category = rural
 }
