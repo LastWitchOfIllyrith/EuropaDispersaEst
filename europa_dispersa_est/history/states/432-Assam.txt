@@ -2,12 +2,8 @@
 state={
 	id=432
 	name="STATE_432"
-	manpower = 8977100
-	
-	state_category = town
-	
 	resources={
-		oil=5 # was: 6
+		oil=5.000
 	}
 
 	history={
@@ -15,6 +11,7 @@ state={
 		add_core_of = BEN
 		buildings = {
 			infrastructure = 3
+
 		}
 
 	}
@@ -22,4 +19,7 @@ state={
 	provinces={
 		1497 1525 1553 1581 7455 10090 10349 10514 12366 12395 
 	}
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=town
 }
