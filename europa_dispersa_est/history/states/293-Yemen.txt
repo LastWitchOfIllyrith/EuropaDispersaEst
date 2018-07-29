@@ -1,20 +1,20 @@
 
 state={
 	id=293
-	name="STATE_293"
+	name="Sana'a"
 	manpower = 2489500
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
-		oil=1 # was: 1
+		oil=12 # was: 1
 	}
 	history={
 		owner = SAY
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
 			10840 = {
 				naval_base = 1
 			}

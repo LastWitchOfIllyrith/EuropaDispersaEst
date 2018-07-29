@@ -1,0 +1,26 @@
+
+state={
+	id=266
+	name="Tehran" # Tehran
+	manpower = 8664908
+	
+	state_category = megalopolis
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 10
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 3
+		}
+		victory_points = {
+			10837 50 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		4580 7602 10385 10768 10837 
+	}
+}
