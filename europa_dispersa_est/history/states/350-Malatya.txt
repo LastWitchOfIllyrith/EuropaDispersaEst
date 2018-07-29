@@ -1,10 +1,10 @@
 
 state={
 	id=350
-	name="STATE_350"
-	manpower = 1047156
+	name="Malatya"
+	manpower = 540000
 	
-	state_category = rural
+	state_category = wasteland
 
 	history={
 		owner = KRD
