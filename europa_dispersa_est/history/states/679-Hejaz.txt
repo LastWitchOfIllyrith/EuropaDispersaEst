@@ -1,7 +1,7 @@
 
 state={
 	id=679
-	name="STATE_679"
+	name="Hejaz"
 
 	history={
 		owner = SAY
@@ -12,7 +12,7 @@ state={
 			12883 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			12883 = {
 				naval_base = 5
 
@@ -28,5 +28,5 @@ state={
 	}
 	manpower=1511000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }
