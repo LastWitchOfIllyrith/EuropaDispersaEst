@@ -1,0 +1,22 @@
+
+state={
+	id=418
+	name="Semnan"
+	manpower = 654252
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		8009 8093 10873 11671 12704 12748 12818 
+	}
+}

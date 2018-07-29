@@ -1,10 +1,10 @@
 state=
 {
 	id=446
-	name="STATE_446"
-	manpower = 6586596
+	name="Cairo"
+	manpower = 9586596
 	
-	state_category = city
+	state_category = metropolis
 
 	history=
 	{
