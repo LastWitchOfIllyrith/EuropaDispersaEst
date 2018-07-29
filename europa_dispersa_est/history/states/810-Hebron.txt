@@ -1,7 +1,7 @@
 
 state={
 	id=810
-	name="STATE_810"
+	name="Hebron"
 
 	history={
 		owner = MAS
@@ -12,6 +12,7 @@ state={
 	provinces={
 		1065 1201 7107 
 	}
-	manpower=0
+	manpower=863200
+	state_category = city
 	buildings_max_level_factor=1.000
 }
