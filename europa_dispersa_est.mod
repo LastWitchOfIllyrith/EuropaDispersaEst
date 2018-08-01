@@ -6,4 +6,4 @@ tags={
 	"Events"
 	"Ideologies"
 }
-supported_version="1.5.3"
+supported_version="1.5.4"
