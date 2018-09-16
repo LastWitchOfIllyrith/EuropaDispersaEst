@@ -6,12 +6,17 @@ state={
 		owner = SEM
 		add_core_of = SEM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+		}
+		
+		victory_points = {
+			1556 3
 		}
 	}
 	provinces={
 		1556 1572 1584 12439 
 	}
-	manpower=0
+	manpower=422755
 	buildings_max_level_factor=1.000
+	state_category=town
 }

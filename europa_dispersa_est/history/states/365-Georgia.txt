@@ -7,30 +7,17 @@ state={
 		owner = CHE
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 3
-			air_base = 2
-			11975 = {
-				naval_base = 1
-
-			}
-
+			industrial_complex = 1
 		}
 		add_core_of = CHE
 		victory_points = {
-			12384 10 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
+			10394 5 
 		}
 
 	}
 
 	provinces={
-		638 7118 7612 9949 10394 10437 10465 11975 12384 
+		638 7118 7612 9949 10394 10437 10465 12384 
 	}
 	manpower=2908504
 	buildings_max_level_factor=1.000

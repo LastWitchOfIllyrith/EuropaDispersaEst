@@ -1,18 +1,34 @@
+
 state={
 	id=797
 	name="STATE_797"
-	
+
 	history={
 		owner = CHE
 		add_core_of = CHE
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			industrial_complex = 2
 		}
+		
+		victory_points = {
+			10407 10
+		}
+		
+		victory_points = {
+			7583 5
+		}
+		
+		victory_points = {
+			12470 1
+		}
+
 	}
-	
+
 	provinces={
-		1433 1480 7583 10407 10492 12325 12353 12381 12470 12498 
+		7583 10407 10492 12325 12470 12498 
 	}
-	manpower=0
+	manpower=1287381
 	buildings_max_level_factor=1.000
+	state_category=city
 }
